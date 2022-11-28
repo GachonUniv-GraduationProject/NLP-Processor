@@ -1,0 +1,14 @@
+[Unit]
+Description=NLP Processing Server
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/srv/NLP-Processor
+ExecStart=/srv/NLP-Processor/venv/bin/python -u /srv/NLP-Processor/main.py
+StandardOutput=file:/srv/NLP-Processor/output.log
+StandardError=file:/srv/NLP-Processor/error.log
+
+
+[Install]
+WantedBy=multi-user.target
