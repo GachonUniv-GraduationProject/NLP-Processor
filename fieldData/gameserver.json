@@ -1,0 +1,898 @@
+{
+    "게임 서버": {
+        "base": "Game Server",
+        "child": [
+            "TCP",
+            "UDP",
+            "TCP vs UDP",
+            "IP",
+            "프로그래밍 언어",
+            "소켓 프로그래밍",
+            "멀티 쓰레드",
+            "직렬화",
+            "프로그래밍 기술",
+            "Cipher",
+            "Database",
+            "웹",
+            "RPC",
+            "Message Queue",
+            "Data Clustering",
+            "클라우드",
+            "인공지능",
+            "컨테이너"
+        ]
+    },
+    "TCP": {
+        "base": "게임 서버",
+        "child": [
+            "세그먼트 구조",
+            "TCP 작업",
+            "체크섬(TCP)",
+            "취약성"
+        ]
+    },
+    "세그먼트 구조": {
+        "base": "TCP",
+        "child": []
+    },
+    "TCP 작업": {
+        "base": "TCP",
+        "child": [
+            "연결",
+            "리소스 사용",
+            "데이터 전송",
+            "최대 세그먼트 크기",
+            "윈도우 스케일링",
+            "타임스탬프",
+            "Out-of-Band data",
+            "Selective Acknowledgement"
+        ]
+    },
+    "연결": {
+        "base": "TCP 작업",
+        "child": []
+    },
+    "리소스 사용": {
+        "base": "TCP 작업",
+        "child": []
+    },
+    "데이터 전송": {
+        "base": "TCP 작업",
+        "child": [
+            "Flow Control",
+            "Congestion Control(TCP)",
+            "Reliable Transmission"
+        ]
+    },
+    "Flow Control": {
+        "base": "데이터 전송",
+        "child": [
+            "오류 탐지"
+        ]
+    },
+    "오류 탐지": {
+        "base": "Flow Control",
+        "child": []
+    },
+    "Congestion Control(TCP)": {
+        "base": "데이터 전송",
+        "child": []
+    },
+    "Reliable Transmission": {
+        "base": "데이터 전송",
+        "child": []
+    },
+    "최대 세그먼트 크기": {
+        "base": "TCP 작업",
+        "child": []
+    },
+    "윈도우 스케일링": {
+        "base": "TCP 작업",
+        "child": []
+    },
+    "타임스탬프": {
+        "base": "TCP 작업",
+        "child": []
+    },
+    "Out-of-Band data": {
+        "base": "TCP 작업",
+        "child": []
+    },
+    "Selective Acknowledgement": {
+        "base": "TCP 작업",
+        "child": []
+    },
+    "체크섬(TCP)": {
+        "base": "TCP",
+        "child": []
+    },
+    "취약성": {
+        "base": "TCP",
+        "child": [
+            "DoS",
+            "Connection Hijacking",
+            "Veto"
+        ]
+    },
+    "DoS": {
+        "base": "취약성",
+        "child": []
+    },
+    "Connection Hijacking": {
+        "base": "취약성",
+        "child": []
+    },
+    "Veto": {
+        "base": "취약성",
+        "child": []
+    },
+    "UDP": {
+        "base": "게임 서버",
+        "child": [
+            "UDP 패킷 구조",
+            "체크썸(UDP)",
+            "Congestion Control(UDP)",
+            "Datagram",
+            "Reliability (UDP)"
+        ]
+    },
+    "UDP 패킷 구조": {
+        "base": "UDP",
+        "child": []
+    },
+    "체크썸(UDP)": {
+        "base": "UDP",
+        "child": []
+    },
+    "Congestion Control(UDP)": {
+        "base": "UDP",
+        "child": []
+    },
+    "Datagram": {
+        "base": "UDP",
+        "child": []
+    },
+    "Reliability (UDP)": {
+        "base": "UDP",
+        "child": []
+    },
+    "TCP vs UDP": {
+        "base": "게임 서버",
+        "child": [
+            "Reliable vs Unreliable",
+            "Ordered vs Not Ordered",
+            "Heavyweight vs Lightweight",
+            "Packet vs Datagram",
+            "Streaming vs Broadbast"
+        ]
+    },
+    "Reliable vs Unreliable": {
+        "base": "TCP vs UDP",
+        "child": []
+    },
+    "Ordered vs Not Ordered": {
+        "base": "TCP vs UDP",
+        "child": []
+    },
+    "Heavyweight vs Lightweight": {
+        "base": "TCP vs UDP",
+        "child": []
+    },
+    "Packet vs Datagram": {
+        "base": "TCP vs UDP",
+        "child": []
+    },
+    "Streaming vs Broadbast": {
+        "base": "TCP vs UDP",
+        "child": []
+    },
+    "IP": {
+        "base": "게임 서버",
+        "child": [
+            "Capability (IP)",
+            "Reliability (IP)",
+            "Function of IP",
+            "Link Capacity",
+            "Transaction",
+            "Category (IP)",
+            "보안"
+        ]
+    },
+    "Capability (IP)": {
+        "base": "IP",
+        "child": []
+    },
+    "Reliability (IP)": {
+        "base": "IP",
+        "child": []
+    },
+    "Function of IP": {
+        "base": "IP",
+        "child": [
+            "Datagram Construction",
+            "IP Addressing",
+            "Routing"
+        ]
+    },
+    "Datagram Construction": {
+        "base": "Function of IP",
+        "child": []
+    },
+    "IP Addressing": {
+        "base": "Function of IP",
+        "child": []
+    },
+    "Routing": {
+        "base": "Function of IP",
+        "child": []
+    },
+    "Link Capacity": {
+        "base": "IP",
+        "child": []
+    },
+    "Transaction": {
+        "base": "IP",
+        "child": [
+            "ARP",
+            "DNS",
+            "DHCP"
+        ]
+    },
+    "ARP": {
+        "base": "Transaction",
+        "child": []
+    },
+    "DNS": {
+        "base": "Transaction",
+        "child": []
+    },
+    "DHCP": {
+        "base": "Transaction",
+        "child": []
+    },
+    "Category (IP)": {
+        "base": "IP",
+        "child": [
+            "IPv4",
+            "IPv6"
+        ]
+    },
+    "IPv4": {
+        "base": "Category (IP)",
+        "child": []
+    },
+    "IPv6": {
+        "base": "Category (IP)",
+        "child": []
+    },
+    "보안": {
+        "base": "IP",
+        "child": [
+            "TLS"
+        ]
+    },
+    "TLS": {
+        "base": "보안",
+        "child": []
+    },
+    "프로그래밍 언어": {
+        "base": "게임 서버",
+        "child": [
+            "C/C++",
+            "C#",
+            "JavaScript",
+            "Java",
+            "Erlang"
+        ]
+    },
+    "C/C++": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "C#": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "JavaScript": {
+        "base": "프로그래밍 언어",
+        "child": [
+            "TypeScript"
+        ]
+    },
+    "TypeScript": {
+        "base": "JavaScript",
+        "child": []
+    },
+    "Java": {
+        "base": "프로그래밍 언어",
+        "child": [
+            "Kotlin",
+            "Scala"
+        ]
+    },
+    "Kotlin": {
+        "base": "Java",
+        "child": []
+    },
+    "Scala": {
+        "base": "Java",
+        "child": []
+    },
+    "Erlang": {
+        "base": "프로그래밍 언어",
+        "child": [
+            "Elixir"
+        ]
+    },
+    "Elixir": {
+        "base": "Erlang",
+        "child": []
+    },
+    "소켓 프로그래밍": {
+        "base": "게임 서버",
+        "child": [
+            "Byte Manipulation",
+            "API",
+            "Descriptor",
+            "Address Conversion"
+        ]
+    },
+    "Byte Manipulation": {
+        "base": "소켓 프로그래밍",
+        "child": []
+    },
+    "API": {
+        "base": "소켓 프로그래밍",
+        "child": [
+            "BSD Socket",
+            "Winsock"
+        ]
+    },
+    "BSD Socket": {
+        "base": "API",
+        "child": []
+    },
+    "Winsock": {
+        "base": "API",
+        "child": []
+    },
+    "Descriptor": {
+        "base": "소켓 프로그래밍",
+        "child": []
+    },
+    "Address Conversion": {
+        "base": "소켓 프로그래밍",
+        "child": []
+    },
+    "멀티 쓰레드": {
+        "base": "게임 서버",
+        "child": [
+            "Thread Local Storage",
+            "동기화",
+            "Sharding",
+            "Fiber",
+            "비동기",
+            "Task-based",
+            "Reactive",
+            "ActorModel"
+        ]
+    },
+    "Thread Local Storage": {
+        "base": "멀티 쓰레드",
+        "child": [
+            "Windows",
+            "pthread"
+        ]
+    },
+    "Windows": {
+        "base": "Thread Local Storage",
+        "child": []
+    },
+    "pthread": {
+        "base": "Thread Local Storage",
+        "child": []
+    },
+    "동기화": {
+        "base": "멀티 쓰레드",
+        "child": [
+            "Mutex",
+            "Spinlock",
+            "Barrier",
+            "Condition Variable",
+            "Future and Promise"
+        ]
+    },
+    "Mutex": {
+        "base": "동기화",
+        "child": [
+            "Semaphore"
+        ]
+    },
+    "Semaphore": {
+        "base": "Mutex",
+        "child": []
+    },
+    "Spinlock": {
+        "base": "동기화",
+        "child": []
+    },
+    "Barrier": {
+        "base": "동기화",
+        "child": []
+    },
+    "Condition Variable": {
+        "base": "동기화",
+        "child": []
+    },
+    "Future and Promise": {
+        "base": "동기화",
+        "child": [
+            "Coroutine",
+            "Channel"
+        ]
+    },
+    "Coroutine": {
+        "base": "Future and Promise",
+        "child": []
+    },
+    "Channel": {
+        "base": "Future and Promise",
+        "child": []
+    },
+    "Sharding": {
+        "base": "멀티 쓰레드",
+        "child": []
+    },
+    "Fiber": {
+        "base": "멀티 쓰레드",
+        "child": []
+    },
+    "직렬화": {
+        "base": "게임 서버",
+        "child": [
+            "JSON",
+            "XML",
+            "Protobuf",
+            "YAML",
+            "TOML"
+        ]
+    },
+    "JSON": {
+        "base": "직렬화",
+        "child": []
+    },
+    "XML": {
+        "base": "직렬화",
+        "child": []
+    },
+    "Protobuf": {
+        "base": "직렬화",
+        "child": []
+    },
+    "YAML": {
+        "base": "직렬화",
+        "child": []
+    },
+    "TOML": {
+        "base": "직렬화",
+        "child": []
+    },
+    "프로그래밍 기술": {
+        "base": "게임 서버",
+        "child": [
+            "Design Pattern",
+            "Test driven development",
+            "Dependency Injection",
+            "Dump analysis",
+            "Functional Programming"
+        ]
+    },
+    "Design Pattern": {
+        "base": "프로그래밍 기술",
+        "child": []
+    },
+    "Test driven development": {
+        "base": "프로그래밍 기술",
+        "child": []
+    },
+    "Dependency Injection": {
+        "base": "프로그래밍 기술",
+        "child": []
+    },
+    "Dump analysis": {
+        "base": "프로그래밍 기술",
+        "child": []
+    },
+    "Functional Programming": {
+        "base": "프로그래밍 기술",
+        "child": []
+    },
+    "Cipher": {
+        "base": "게임 서버",
+        "child": [
+            "SSL"
+        ]
+    },
+    "SSL": {
+        "base": "Cipher",
+        "child": []
+    },
+    "Database": {
+        "base": "게임 서버",
+        "child": [
+            "RDBMS",
+            "NoSQL"
+        ]
+    },
+    "RDBMS": {
+        "base": "Database",
+        "child": [
+            "MS-SQL Server",
+            "MySQL",
+            "SQLite",
+            "PostgreSQL",
+            "SQL"
+        ]
+    },
+    "MS-SQL Server": {
+        "base": "RDBMS",
+        "child": []
+    },
+    "MySQL": {
+        "base": "RDBMS",
+        "child": [
+            "MariaDB",
+            "AuroraDB"
+        ]
+    },
+    "MariaDB": {
+        "base": "MySQL",
+        "child": []
+    },
+    "AuroraDB": {
+        "base": "MySQL",
+        "child": []
+    },
+    "SQLite": {
+        "base": "RDBMS",
+        "child": []
+    },
+    "PostgreSQL": {
+        "base": "RDBMS",
+        "child": []
+    },
+    "SQL": {
+        "base": "RDBMS",
+        "child": [
+            "ORM",
+            "DAL"
+        ]
+    },
+    "ORM": {
+        "base": "SQL",
+        "child": []
+    },
+    "DAL": {
+        "base": "SQL",
+        "child": []
+    },
+    "NoSQL": {
+        "base": "Database",
+        "child": [
+            "Key-Value",
+            "Document"
+        ]
+    },
+    "Key-Value": {
+        "base": "NoSQL",
+        "child": [
+            "Memcached",
+            "Redis"
+        ]
+    },
+    "Memcached": {
+        "base": "Key-Value",
+        "child": []
+    },
+    "Redis": {
+        "base": "Key-Value",
+        "child": []
+    },
+    "Document": {
+        "base": "NoSQL",
+        "child": [
+            "Dynamo DB",
+            "MongoDB",
+            "CouchBase"
+        ]
+    },
+    "Dynamo DB": {
+        "base": "Document",
+        "child": []
+    },
+    "MongoDB": {
+        "base": "Document",
+        "child": []
+    },
+    "CouchBase": {
+        "base": "Document",
+        "child": []
+    },
+    "비동기": {
+        "base": "멀티 쓰레드",
+        "child": [
+            "Proactor",
+            "Reactor"
+        ]
+    },
+    "Proactor": {
+        "base": "비동기",
+        "child": [
+            "Registered IO",
+            "io_uring",
+            "IOCP"
+        ]
+    },
+    "Registered IO": {
+        "base": "Proactor",
+        "child": []
+    },
+    "io_uring": {
+        "base": "Proactor",
+        "child": []
+    },
+    "IOCP": {
+        "base": "Proactor",
+        "child": []
+    },
+    "Reactor": {
+        "base": "비동기",
+        "child": [
+            "select",
+            "WSAPoll",
+            "epoll",
+            "kqueue"
+        ]
+    },
+    "select": {
+        "base": "Reactor",
+        "child": []
+    },
+    "WSAPoll": {
+        "base": "Reactor",
+        "child": []
+    },
+    "epoll": {
+        "base": "Reactor",
+        "child": []
+    },
+    "kqueue": {
+        "base": "Reactor",
+        "child": []
+    },
+    "Task-based": {
+        "base": "멀티 쓰레드",
+        "child": [
+            "Thread Building Block(C++)",
+            "async-await(C#)",
+            "Concurrency(Java)",
+            "goroutine(Go)"
+        ]
+    },
+    "Thread Building Block(C++)": {
+        "base": "Task-based",
+        "child": []
+    },
+    "async-await(C#)": {
+        "base": "Task-based",
+        "child": []
+    },
+    "Concurrency(Java)": {
+        "base": "Task-based",
+        "child": []
+    },
+    "goroutine(Go)": {
+        "base": "Task-based",
+        "child": []
+    },
+    "Reactive": {
+        "base": "멀티 쓰레드",
+        "child": [
+            "Approach",
+            "Model"
+        ]
+    },
+    "Approach": {
+        "base": "Reactive",
+        "child": [
+            "OORP",
+            "FRP"
+        ]
+    },
+    "OORP": {
+        "base": "Approach",
+        "child": []
+    },
+    "FRP": {
+        "base": "Approach",
+        "child": []
+    },
+    "Model": {
+        "base": "Reactive",
+        "child": [
+            "Synchrony",
+            "Determinism",
+            "Update Process"
+        ]
+    },
+    "Synchrony": {
+        "base": "Model",
+        "child": []
+    },
+    "Determinism": {
+        "base": "Model",
+        "child": []
+    },
+    "Update Process": {
+        "base": "Model",
+        "child": []
+    },
+    "ActorModel": {
+        "base": "멀티 쓰레드",
+        "child": [
+            "Akka(Java)",
+            "Akka.net(C#)"
+        ]
+    },
+    "Akka(Java)": {
+        "base": "ActorModel",
+        "child": []
+    },
+    "Akka.net(C#)": {
+        "base": "ActorModel",
+        "child": []
+    },
+    "웹": {
+        "base": "게임 서버",
+        "child": [
+            "Spring (Java)",
+            "ASP.NET Core(C#)",
+            "Node.js(JavaScript)"
+        ]
+    },
+    "Spring (Java)": {
+        "base": "웹",
+        "child": []
+    },
+    "ASP.NET Core(C#)": {
+        "base": "웹",
+        "child": []
+    },
+    "Node.js(JavaScript)": {
+        "base": "웹",
+        "child": []
+    },
+    "RPC": {
+        "base": "게임 서버",
+        "child": [
+            "REST",
+            "GRPC"
+        ]
+    },
+    "REST": {
+        "base": "RPC",
+        "child": []
+    },
+    "GRPC": {
+        "base": "RPC",
+        "child": []
+    },
+    "Message Queue": {
+        "base": "게임 서버",
+        "child": [
+            "Apache Kafka"
+        ]
+    },
+    "Apache Kafka": {
+        "base": "Message Queue",
+        "child": []
+    },
+    "Data Clustering": {
+        "base": "게임 서버",
+        "child": [
+            "Apache Spark"
+        ]
+    },
+    "Apache Spark": {
+        "base": "Data Clustering",
+        "child": []
+    },
+    "클라우드": {
+        "base": "게임 서버",
+        "child": [
+            "서버리스",
+            "Microsoft Azure",
+            "Google Cloud Platform",
+            "Amazon Web Service"
+        ]
+    },
+    "서버리스": {
+        "base": "클라우드",
+        "child": []
+    },
+    "Microsoft Azure": {
+        "base": "클라우드",
+        "child": []
+    },
+    "Google Cloud Platform": {
+        "base": "클라우드",
+        "child": []
+    },
+    "Amazon Web Service": {
+        "base": "클라우드",
+        "child": []
+    },
+    "인공지능": {
+        "base": "게임 서버",
+        "child": [
+            "딥러닝",
+            "클라우드 머신러닝"
+        ]
+    },
+    "딥러닝": {
+        "base": "인공지능",
+        "child": [
+            "TensorFlow",
+            "PyTorch"
+        ]
+    },
+    "TensorFlow": {
+        "base": "딥러닝",
+        "child": []
+    },
+    "PyTorch": {
+        "base": "딥러닝",
+        "child": []
+    },
+    "클라우드 머신러닝": {
+        "base": "인공지능",
+        "child": [
+            "아마존 머신러닝",
+            "Azure 머신러닝"
+        ]
+    },
+    "아마존 머신러닝": {
+        "base": "클라우드 머신러닝",
+        "child": []
+    },
+    "Azure 머신러닝": {
+        "base": "클라우드 머신러닝",
+        "child": []
+    },
+    "컨테이너": {
+        "base": "게임 서버",
+        "child": [
+            "Windows 컨테이너",
+            "Docker"
+        ]
+    },
+    "Windows 컨테이너": {
+        "base": "컨테이너",
+        "child": []
+    },
+    "Docker": {
+        "base": "컨테이너",
+        "child": [
+            "Docker Compose",
+            "Kubernetes"
+        ]
+    },
+    "Docker Compose": {
+        "base": "Docker",
+        "child": []
+    },
+    "Kubernetes": {
+        "base": "Docker",
+        "child": []
+    }
+}

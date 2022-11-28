@@ -1,0 +1,584 @@
+{
+    "JavaScript 소개": {
+        "base": "JavaScript",
+        "child": [
+            "JavaScript란 무엇인가",
+            "JavaScript의 역사",
+            "JavaScript 버전",
+            "JavaScript 실행하는 법"
+        ]
+    },
+    "JavaScript란 무엇인가": {
+        "base": "JavaScript 소개",
+        "child": []
+    },
+    "JavaScript의 역사": {
+        "base": "JavaScript 소개",
+        "child": []
+    },
+    "JavaScript 버전": {
+        "base": "JavaScript 소개",
+        "child": []
+    },
+    "JavaScript 실행하는 법": {
+        "base": "JavaScript 소개",
+        "child": []
+    },
+    "변수에 대해서": {
+        "base": "JavaScript",
+        "child": [
+            "변수 선언하는 법",
+            "hositing",
+            "변수 명명 규칙 ",
+            "변수 영역"
+        ]
+    },
+    "변수 선언하는 법": {
+        "base": "변수에 대해서",
+        "child": [
+            "var",
+            "let",
+            "const"
+        ]
+    },
+    "var": {
+        "base": "변수 선언하는 법",
+        "child": []
+    },
+    "let": {
+        "base": "변수 선언하는 법",
+        "child": []
+    },
+    "const": {
+        "base": "변수 선언하는 법",
+        "child": []
+    },
+    "hositing": {
+        "base": "변수에 대해서",
+        "child": []
+    },
+    "변수 명명 규칙 ": {
+        "base": "변수에 대해서",
+        "child": []
+    },
+    "변수 영역": {
+        "base": "변수에 대해서",
+        "child": [
+            "block",
+            "function",
+            "global"
+        ]
+    },
+    "block": {
+        "base": "변수 영역",
+        "child": []
+    },
+    "function": {
+        "base": "변수 영역",
+        "child": []
+    },
+    "global": {
+        "base": "변수 영역",
+        "child": []
+    },
+    "데이터 타입": {
+        "base": "JavaScript",
+        "child": [
+            "primitive",
+            "object",
+            "typeof operator"
+        ]
+    },
+    "primitive": {
+        "base": "데이터 타입",
+        "child": []
+    },
+    "object": {
+        "base": "데이터 타입",
+        "child": [
+            "Object prototype",
+            "Prototypal inheritance",
+            "Built-in Objects"
+        ]
+    },
+    "typeof operator": {
+        "base": "데이터 타입",
+        "child": []
+    },
+    "Object prototype": {
+        "base": "object",
+        "child": []
+    },
+    "Prototypal inheritance": {
+        "base": "object",
+        "child": []
+    },
+    "Built-in Objects": {
+        "base": "object",
+        "child": []
+    },
+    "type casting": {
+        "base": "JavaScript",
+        "child": [
+            "type conversion VS coercion",
+            "explicit type casting",
+            "implicit type casting"
+        ]
+    },
+    "type conversion VS coercion": {
+        "base": "type casting",
+        "child": []
+    },
+    "explicit type casting": {
+        "base": "type casting",
+        "child": []
+    },
+    "implicit type casting": {
+        "base": "type casting",
+        "child": []
+    },
+    "data structures": {
+        "base": "JavaScript",
+        "child": [
+            "keyed collections",
+            "indexed collections",
+            "structured data"
+        ]
+    },
+    "keyed collections": {
+        "base": "data structures",
+        "child": [
+            "map",
+            "weak map",
+            "set ",
+            "weak set"
+        ]
+    },
+    "map": {
+        "base": "keyed collections",
+        "child": []
+    },
+    "weak map": {
+        "base": "keyed collections",
+        "child": []
+    },
+    "set ": {
+        "base": "keyed collections",
+        "child": []
+    },
+    "weak set": {
+        "base": "keyed collections",
+        "child": []
+    },
+    "indexed collections": {
+        "base": "data structures",
+        "child": [
+            "typed array",
+            "arrays"
+        ]
+    },
+    "typed array": {
+        "base": "indexed collections",
+        "child": []
+    },
+    "arrays": {
+        "base": "indexed collections",
+        "child": []
+    },
+    "structured data": {
+        "base": "data structures",
+        "child": [
+            "JSON"
+        ]
+    },
+    "JSON": {
+        "base": "structured data",
+        "child": []
+    },
+    "동등 비교": {
+        "base": "JavaScript",
+        "child": [
+            "값 비교 연산자",
+            "동등 알고리즘"
+        ]
+    },
+    "값 비교 연산자": {
+        "base": "동등 비교",
+        "child": []
+    },
+    "동등 알고리즘": {
+        "base": "동등 비교",
+        "child": [
+            "isLooselyEqual",
+            "isStrictlyEqual",
+            "SameValueZero",
+            "SameValue"
+        ]
+    },
+    "isLooselyEqual": {
+        "base": "동등 알고리즘",
+        "child": []
+    },
+    "isStrictlyEqual": {
+        "base": "동등 알고리즘",
+        "child": []
+    },
+    "SameValueZero": {
+        "base": "동등 알고리즘",
+        "child": []
+    },
+    "SameValue": {
+        "base": "동등 알고리즘",
+        "child": []
+    },
+    "반복문": {
+        "base": "JavaScript",
+        "child": [
+            "for",
+            "while",
+            "do_while",
+            "for_in",
+            "for_of",
+            "break/continue"
+        ]
+    },
+    "for": {
+        "base": "반복문",
+        "child": []
+    },
+    "while": {
+        "base": "반복문",
+        "child": []
+    },
+    "do_while": {
+        "base": "반복문",
+        "child": []
+    },
+    "for_in": {
+        "base": "반복문",
+        "child": []
+    },
+    "for_of": {
+        "base": "반복문",
+        "child": []
+    },
+    "break/continue": {
+        "base": "반복문",
+        "child": []
+    },
+    "break / continue": {
+        "base": "JavaScript",
+        "child": [
+            "labeled statements"
+        ]
+    },
+    "labeled statements": {
+        "base": "break / continue",
+        "child": []
+    },
+    "control flow": {
+        "base": "JavaScript",
+        "child": [
+            "조건문",
+            "예외처리"
+        ]
+    },
+    "조건문": {
+        "base": "control flow",
+        "child": [
+            "if_else",
+            "switch"
+        ]
+    },
+    "if_else": {
+        "base": "조건문",
+        "child": []
+    },
+    "switch": {
+        "base": "조건문",
+        "child": []
+    },
+    "예외처리": {
+        "base": "control flow",
+        "child": [
+            "throw statement",
+            "try / catch / finally",
+            "utilizing error objects"
+        ]
+    },
+    "throw statement": {
+        "base": "예외처리",
+        "child": []
+    },
+    "try / catch / finally": {
+        "base": "예외처리",
+        "child": []
+    },
+    "utilizing error objects": {
+        "base": "예외처리",
+        "child": []
+    },
+    "expression and operators": {
+        "base": "JavaScript",
+        "child": [
+            "assignemt operators",
+            "comparison operators",
+            "arithmetic operators",
+            "bitwise operators",
+            "logical operators",
+            "bigint operators",
+            "string operators",
+            "conditional operators",
+            "comma operators",
+            "unary operators",
+            "relational operators"
+        ]
+    },
+    "assignemt operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "comparison operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "arithmetic operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "bitwise operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "logical operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "bigint operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "string operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "conditional operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "comma operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "unary operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "relational operators": {
+        "base": "expression and operators",
+        "child": []
+    },
+    "함수": {
+        "base": "JavaScript",
+        "child": [
+            "함수 정의하고 호출하기",
+            "함수 파라미터",
+            "arrow functions",
+            "IIFEs",
+            "arguments object",
+            "scope & function stack",
+            "빌트인 함수"
+        ]
+    },
+    "함수 정의하고 호출하기": {
+        "base": "함수",
+        "child": []
+    },
+    "함수 파라미터": {
+        "base": "함수",
+        "child": [
+            "default 파라미터",
+            "rest 파라미터"
+        ]
+    },
+    "arrow functions": {
+        "base": "함수",
+        "child": []
+    },
+    "IIFEs": {
+        "base": "함수",
+        "child": []
+    },
+    "arguments object": {
+        "base": "함수",
+        "child": []
+    },
+    "scope & function stack": {
+        "base": "함수",
+        "child": [
+            "재귀",
+            "lexical scoping",
+            "closures"
+        ]
+    },
+    "빌트인 함수": {
+        "base": "함수",
+        "child": []
+    },
+    "default 파라미터": {
+        "base": "함수 파라미터",
+        "child": []
+    },
+    "rest 파라미터": {
+        "base": "함수 파라미터",
+        "child": []
+    },
+    "재귀": {
+        "base": "scope & function stack",
+        "child": []
+    },
+    "lexical scoping": {
+        "base": "scope & function stack",
+        "child": []
+    },
+    "closures": {
+        "base": "scope & function stack",
+        "child": []
+    },
+    "this 키워드": {
+        "base": "JavaScript",
+        "child": [
+            "함수 빌리기",
+            "명시적 바인딩",
+            "In a method",
+            "in a function",
+            "using it alone",
+            "in event handlers",
+            "in arrow functions"
+        ]
+    },
+    "함수 빌리기": {
+        "base": "this 키워드",
+        "child": []
+    },
+    "명시적 바인딩": {
+        "base": "this 키워드",
+        "child": [
+            "call",
+            "apply",
+            "bind"
+        ]
+    },
+    "In a method": {
+        "base": "this 키워드",
+        "child": []
+    },
+    "in a function": {
+        "base": "this 키워드",
+        "child": []
+    },
+    "using it alone": {
+        "base": "this 키워드",
+        "child": []
+    },
+    "in event handlers": {
+        "base": "this 키워드",
+        "child": []
+    },
+    "in arrow functions": {
+        "base": "this 키워드",
+        "child": []
+    },
+    "call": {
+        "base": "명시적 바인딩",
+        "child": []
+    },
+    "apply": {
+        "base": "명시적 바인딩",
+        "child": []
+    },
+    "bind": {
+        "base": "명시적 바인딩",
+        "child": []
+    },
+    "비동기적 자바스크립트": {
+        "base": "JavaScript",
+        "child": [
+            "setTimeout",
+            "setInterval",
+            "callbacks",
+            "promises"
+        ]
+    },
+    "setTimeout": {
+        "base": "비동기적 자바스크립트",
+        "child": []
+    },
+    "setInterval": {
+        "base": "비동기적 자바스크립트",
+        "child": []
+    },
+    "callbacks": {
+        "base": "비동기적 자바스크립트",
+        "child": [
+            "callback hell"
+        ]
+    },
+    "promises": {
+        "base": "비동기적 자바스크립트",
+        "child": [
+            "async / wait"
+        ]
+    },
+    "callback hell": {
+        "base": "callbacks",
+        "child": []
+    },
+    "async / wait": {
+        "base": "promises",
+        "child": []
+    },
+    "자바 스크립트 모듈": {
+        "base": "JavaScript",
+        "child": [
+            "common JS",
+            "ECMA Script modules"
+        ]
+    },
+    "common JS": {
+        "base": "자바 스크립트 모듈",
+        "child": []
+    },
+    "ECMA Script modules": {
+        "base": "자바 스크립트 모듈",
+        "child": []
+    },
+    "메모리 관리": {
+        "base": "크롬 개발자 도구",
+        "child": []
+    },
+    "메모리 라이프 사이클": {
+        "base": "메모리 관리",
+        "child": []
+    },
+    "가비지 컬렉션": {
+        "base": "메모리 관리",
+        "child": []
+    },
+    "크롬 개발자 도구": {
+        "base": "JavaScript",
+        "child": [
+            "디버깅 이슈",
+            "메모리 관리",
+            "성능 디버깅"
+        ]
+    },
+    "디버깅 이슈": {
+        "base": "크롬 개발자 도구",
+        "child": []
+    },
+    "성능 디버깅": {
+        "base": "크롬 개발자 도구",
+        "child": []
+    }
+}

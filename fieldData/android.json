@@ -1,0 +1,157 @@
+{
+    "Android": {
+        "base": "Android",
+        "child": [
+            "언어 선택",
+            "기본 사항",
+            "버전 제어 시스템(VSC)",
+            "응용 프로그램 빌드",
+            "Robust Apps 작성"
+        ]
+    },
+    "언어 선택": {
+        "base": "Android",
+        "child": [
+            "코틀린",
+            "자바"
+        ]
+    },
+    "코틀린": {
+        "base": "언어 선택",
+        "child": []
+    },
+    "자바": {
+        "base": "언어 선택",
+        "child": []
+    },
+    "기본 사항": {
+        "base": "Android",
+        "child": [
+            "안드로이드 스튜디오 설치",
+            "코틀린의 기초",
+            "객체 지향 프로그래밍의 기초",
+            "데이터구조와 알고리즘",
+            "Gradle의 사용법"
+        ]
+    },
+    "안드로이드 스튜디오 설치": {
+        "base": "기본 사항",
+        "child": []
+    },
+    "코틀린의 기초": {
+        "base": "기본 사항",
+        "child": []
+    },
+    "객체 지향 프로그래밍의 기초": {
+        "base": "기본 사항",
+        "child": []
+    },
+    "데이터구조와 알고리즘": {
+        "base": "기본 사항",
+        "child": []
+    },
+    "Gradle의 사용법": {
+        "base": "기본 사항",
+        "child": []
+    },
+    "버전 제어 시스템(VSC)": {
+        "base": "Android",
+        "child": [
+            "Git과 GitHub"
+        ]
+    },
+    "Git과 GitHub": {
+        "base": "버전 제어 시스템(VSC)",
+        "child": []
+    },
+    "응용 프로그램 빌드": {
+        "base": "Android",
+        "child": [
+            "Activity 및 Activity 생명주기 사용",
+            "프래그먼트를 이용한 유연한 인터페이스 구축",
+            "안드로이드 스튜디오 디버거를 사용한 디버깅",
+            "구성 요소와 그들의 사용",
+            "콘텐츠 공급자",
+            "앱 구성 처리",
+            "Intent 사용",
+            "Context 이해",
+            "써드파티 라이브러리"
+        ]
+    },
+    "Activity 및 Activity 생명주기 사용": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "프래그먼트를 이용한 유연한 인터페이스 구축": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "안드로이드 스튜디오 디버거를 사용한 디버깅": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "구성 요소와 그들의 사용": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "콘텐츠 공급자": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "앱 구성 처리": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "Intent 사용": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "Context 이해": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "써드파티 라이브러리": {
+        "base": "응용 프로그램 빌드",
+        "child": []
+    },
+    "Robust Apps 작성": {
+        "base": "Android",
+        "child": [
+            "보안",
+            "테스트",
+            "Junit",
+            "Espresso",
+            "의존성 관리",
+            "동시성",
+            "멀티쓰레드 이용"
+        ]
+    },
+    "보안": {
+        "base": "Robust Apps 작성",
+        "child": []
+    },
+    "테스트": {
+        "base": "Robust Apps 작성",
+        "child": []
+    },
+    "Junit": {
+        "base": "Robust Apps 작성",
+        "child": []
+    },
+    "Espresso": {
+        "base": "Robust Apps 작성",
+        "child": []
+    },
+    "의존성 관리": {
+        "base": "Robust Apps 작성",
+        "child": []
+    },
+    "동시성": {
+        "base": "Robust Apps 작성",
+        "child": []
+    },
+    "멀티쓰레드 이용": {
+        "base": "Robust Apps 작성",
+        "child": []
+    }
+}

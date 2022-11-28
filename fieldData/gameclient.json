@@ -1,0 +1,841 @@
+{
+    "게임 클라이언트": {
+        "base": "Game Client",
+        "child": [
+            "게임 수학",
+            "게임 물리학",
+            "게임 엔진",
+            "프로그래밍 언어",
+            "그래픽스 API",
+            "컴퓨터 그래픽스",
+            "게임 AI",
+            "Advanced Rendering"
+        ]
+    },
+    "게임 수학": {
+        "base": "게임 클라이언트",
+        "child": [
+            "행렬",
+            "벡터",
+            "선형대수",
+            "기하학",
+            "일차변환",
+            "아핀공간",
+            "아핀변환",
+            "방향",
+            "곡선",
+            "투영"
+        ]
+    },
+    "행렬": {
+        "base": "게임 수학",
+        "child": []
+    },
+    "벡터": {
+        "base": "게임 수학",
+        "child": []
+    },
+    "선형대수": {
+        "base": "게임 수학",
+        "child": []
+    },
+    "기하학": {
+        "base": "게임 수학",
+        "child": []
+    },
+    "일차변환": {
+        "base": "게임 수학",
+        "child": []
+    },
+    "아핀공간": {
+        "base": "게임 수학",
+        "child": []
+    },
+    "아핀변환": {
+        "base": "게임 수학",
+        "child": []
+    },
+    "방향": {
+        "base": "게임 수학",
+        "child": [
+            "오일러 각",
+            "사원수"
+        ]
+    },
+    "오일러 각": {
+        "base": "방향",
+        "child": []
+    },
+    "사원수": {
+        "base": "방향",
+        "child": []
+    },
+    "곡선": {
+        "base": "게임 수학",
+        "child": [
+            "스플라인 곡선"
+        ]
+    },
+    "스플라인 곡선": {
+        "base": "곡선",
+        "child": [
+            "베지에 곡선",
+            "캣멀-롬 스플라인",
+            "허밋 스플라인"
+        ]
+    },
+    "베지에 곡선": {
+        "base": "스플라인 곡선",
+        "child": []
+    },
+    "캣멀-롬 스플라인": {
+        "base": "스플라인 곡선",
+        "child": []
+    },
+    "허밋 스플라인": {
+        "base": "스플라인 곡선",
+        "child": []
+    },
+    "투영": {
+        "base": "게임 수학",
+        "child": [
+            "정사영",
+            "원근법 투영"
+        ]
+    },
+    "정사영": {
+        "base": "투영",
+        "child": []
+    },
+    "원근법 투영": {
+        "base": "투영",
+        "child": []
+    },
+    "게임 물리학": {
+        "base": "게임 클라이언트",
+        "child": [
+            "역학",
+            "충돌 감지"
+        ]
+    },
+    "역학": {
+        "base": "게임 물리학",
+        "child": [
+            "선속도",
+            "각속도",
+            "힘",
+            "가속",
+            "질량중심",
+            "관성 모멘트",
+            "관절",
+            "반발력",
+            "부력",
+            "마찰력"
+        ]
+    },
+    "선속도": {
+        "base": "역학",
+        "child": []
+    },
+    "각속도": {
+        "base": "역학",
+        "child": []
+    },
+    "힘": {
+        "base": "역학",
+        "child": []
+    },
+    "가속": {
+        "base": "역학",
+        "child": []
+    },
+    "질량중심": {
+        "base": "역학",
+        "child": []
+    },
+    "관성 모멘트": {
+        "base": "역학",
+        "child": []
+    },
+    "관절": {
+        "base": "역학",
+        "child": []
+    },
+    "반발력": {
+        "base": "역학",
+        "child": []
+    },
+    "부력": {
+        "base": "역학",
+        "child": []
+    },
+    "마찰력": {
+        "base": "역학",
+        "child": []
+    },
+    "충돌 감지": {
+        "base": "게임 물리학",
+        "child": [
+            "CCD",
+            "지역 탐지",
+            "광역 탐지"
+        ]
+    },
+    "CCD": {
+        "base": "충돌 감지",
+        "child": []
+    },
+    "지역 탐지": {
+        "base": "충돌 감지",
+        "child": [
+            "교차",
+            "Convexity"
+        ]
+    },
+    "교차": {
+        "base": "지역 탐지",
+        "child": [
+            "SAT",
+            "GJK",
+            "EPA"
+        ]
+    },
+    "SAT": {
+        "base": "교차",
+        "child": []
+    },
+    "GJK": {
+        "base": "교차",
+        "child": []
+    },
+    "EPA": {
+        "base": "교차",
+        "child": []
+    },
+    "Convexity": {
+        "base": "지역 탐지",
+        "child": [
+            "Convex",
+            "Concave"
+        ]
+    },
+    "Convex": {
+        "base": "Convexity",
+        "child": [
+            "Convex Hull"
+        ]
+    },
+    "Convex Hull": {
+        "base": "Convex",
+        "child": []
+    },
+    "Concave": {
+        "base": "Convexity",
+        "child": [
+            "Convex Decomposition"
+        ]
+    },
+    "Convex Decomposition": {
+        "base": "Concave",
+        "child": []
+    },
+    "광역 탐지": {
+        "base": "충돌 감지",
+        "child": [
+            "Bounding Volume",
+            "공간 분할"
+        ]
+    },
+    "Bounding Volume": {
+        "base": "광역 탐지",
+        "child": [
+            "Axis-Aligned Bounding Box",
+            "Oriented Bounding Box"
+        ]
+    },
+    "Axis-Aligned Bounding Box": {
+        "base": "Bounding Volume",
+        "child": []
+    },
+    "Oriented Bounding Box": {
+        "base": "Bounding Volume",
+        "child": []
+    },
+    "공간 분할": {
+        "base": "광역 탐지",
+        "child": [
+            "Sort and Sweep",
+            "BVH"
+        ]
+    },
+    "Sort and Sweep": {
+        "base": "공간 분할",
+        "child": []
+    },
+    "BVH": {
+        "base": "공간 분할",
+        "child": []
+    },
+    "게임 엔진": {
+        "base": "게임 클라이언트",
+        "child": [
+            "유니티",
+            "언리얼",
+            "Godot"
+        ]
+    },
+    "유니티": {
+        "base": "게임 엔진",
+        "child": []
+    },
+    "언리얼": {
+        "base": "게임 엔진",
+        "child": []
+    },
+    "Godot": {
+        "base": "게임 엔진",
+        "child": []
+    },
+    "프로그래밍 언어": {
+        "base": "게임 클라이언트",
+        "child": [
+            "C/C++",
+            "C#",
+            "Assembly",
+            "Python",
+            "Lua"
+        ]
+    },
+    "C/C++": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "C#": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "Assembly": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "Python": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "Lua": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "그래픽스 API": {
+        "base": "게임 클라이언트",
+        "child": [
+            "DirectX",
+            "OpenGL",
+            "Vulkan",
+            "WebGL",
+            "OpenGL ES",
+            "Metal"
+        ]
+    },
+    "DirectX": {
+        "base": "그래픽스 API",
+        "child": [
+            "HLSL"
+        ]
+    },
+    "HLSL": {
+        "base": "DirectX",
+        "child": []
+    },
+    "OpenGL": {
+        "base": "그래픽스 API",
+        "child": [
+            "GLSL"
+        ]
+    },
+    "GLSL": {
+        "base": "OpenGL",
+        "child": []
+    },
+    "Vulkan": {
+        "base": "그래픽스 API",
+        "child": [
+            "SPIR-V"
+        ]
+    },
+    "SPIR-V": {
+        "base": "Vulkan",
+        "child": []
+    },
+    "WebGL": {
+        "base": "그래픽스 API",
+        "child": []
+    },
+    "OpenGL ES": {
+        "base": "그래픽스 API",
+        "child": []
+    },
+    "Metal": {
+        "base": "그래픽스 API",
+        "child": []
+    },
+    "컴퓨터 그래픽스": {
+        "base": "게임 클라이언트",
+        "child": [
+            "레이트레이싱",
+            "래스터화",
+            "그래픽스 파이프라인",
+            "샘플링",
+            "쉐이더",
+            "컴퓨터 애니메이션",
+            "색상",
+            "Visual Perception",
+            "Tone reproduction",
+            "Lighting and Shadow",
+            "Visibility and Occlusion"
+        ]
+    },
+    "레이트레이싱": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "래스터화": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "그래픽스 파이프라인": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "샘플링": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "쉐이더": {
+        "base": "컴퓨터 그래픽스",
+        "child": [
+            "렌더링 방정식",
+            "반사",
+            "매핑"
+        ]
+    },
+    "렌더링 방정식": {
+        "base": "쉐이더",
+        "child": []
+    },
+    "반사": {
+        "base": "쉐이더",
+        "child": [
+            "Diffuse",
+            "Specular"
+        ]
+    },
+    "Diffuse": {
+        "base": "반사",
+        "child": []
+    },
+    "Specular": {
+        "base": "반사",
+        "child": []
+    },
+    "매핑": {
+        "base": "쉐이더",
+        "child": [
+            "Texture",
+            "Bump",
+            "Parallax",
+            "Horizon"
+        ]
+    },
+    "Texture": {
+        "base": "매핑",
+        "child": []
+    },
+    "Bump": {
+        "base": "매핑",
+        "child": []
+    },
+    "Parallax": {
+        "base": "매핑",
+        "child": []
+    },
+    "Horizon": {
+        "base": "매핑",
+        "child": []
+    },
+    "컴퓨터 애니메이션": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "색상": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "Visual Perception": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "Tone reproduction": {
+        "base": "컴퓨터 그래픽스",
+        "child": []
+    },
+    "Lighting and Shadow": {
+        "base": "컴퓨터 그래픽스",
+        "child": [
+            "Shadow Map",
+            "Stencil Shadow",
+            "Light Source"
+        ]
+    },
+    "Shadow Map": {
+        "base": "Lighting and Shadow",
+        "child": [
+            "2D Shadow Map",
+            "Shadow Map Cube",
+            "Cascaded Shadow Map"
+        ]
+    },
+    "2D Shadow Map": {
+        "base": "Shadow Map",
+        "child": []
+    },
+    "Shadow Map Cube": {
+        "base": "Shadow Map",
+        "child": []
+    },
+    "Cascaded Shadow Map": {
+        "base": "Shadow Map",
+        "child": []
+    },
+    "Stencil Shadow": {
+        "base": "Lighting and Shadow",
+        "child": []
+    },
+    "Light Source": {
+        "base": "Lighting and Shadow",
+        "child": [
+            "Directional Light",
+            "Point Light",
+            "Spot Light",
+            "Infinite Light"
+        ]
+    },
+    "Directional Light": {
+        "base": "Light Source",
+        "child": []
+    },
+    "Point Light": {
+        "base": "Light Source",
+        "child": []
+    },
+    "Spot Light": {
+        "base": "Light Source",
+        "child": []
+    },
+    "Infinite Light": {
+        "base": "Light Source",
+        "child": []
+    },
+    "Visibility and Occlusion": {
+        "base": "컴퓨터 그래픽스",
+        "child": [
+            "Occluder",
+            "Culling",
+            "Clipping"
+        ]
+    },
+    "Occluder": {
+        "base": "Visibility and Occlusion",
+        "child": [
+            "Fog"
+        ]
+    },
+    "Fog": {
+        "base": "Occluder",
+        "child": []
+    },
+    "Culling": {
+        "base": "Visibility and Occlusion",
+        "child": [
+            "Fructum",
+            "Light",
+            "Shadow"
+        ]
+    },
+    "Fructum": {
+        "base": "Culling",
+        "child": []
+    },
+    "Light": {
+        "base": "Culling",
+        "child": []
+    },
+    "Shadow": {
+        "base": "Culling",
+        "child": []
+    },
+    "Clipping": {
+        "base": "Visibility and Occlusion",
+        "child": [
+            "Polygon",
+            "Polyhedron"
+        ]
+    },
+    "Polygon": {
+        "base": "Clipping",
+        "child": []
+    },
+    "Polyhedron": {
+        "base": "Clipping",
+        "child": []
+    },
+    "게임 AI": {
+        "base": "게임 클라이언트",
+        "child": [
+            "경로찾기",
+            "Decision Making",
+            "Board Game",
+            "움직임",
+            "학습"
+        ]
+    },
+    "경로찾기": {
+        "base": "게임 AI",
+        "child": [
+            "다익스트라",
+            "A*",
+            "Jump Point Search"
+        ]
+    },
+    "다익스트라": {
+        "base": "경로찾기",
+        "child": []
+    },
+    "A*": {
+        "base": "경로찾기",
+        "child": []
+    },
+    "Jump Point Search": {
+        "base": "경로찾기",
+        "child": []
+    },
+    "Decision Making": {
+        "base": "게임 AI",
+        "child": [
+            "Decision Tree",
+            "State Machine",
+            "Behavior Tree",
+            "Fuzzy Logic",
+            "Markov System",
+            "Goal-Oriented Behavior"
+        ]
+    },
+    "Decision Tree": {
+        "base": "Decision Making",
+        "child": []
+    },
+    "State Machine": {
+        "base": "Decision Making",
+        "child": []
+    },
+    "Behavior Tree": {
+        "base": "Decision Making",
+        "child": []
+    },
+    "Fuzzy Logic": {
+        "base": "Decision Making",
+        "child": []
+    },
+    "Markov System": {
+        "base": "Decision Making",
+        "child": []
+    },
+    "Goal-Oriented Behavior": {
+        "base": "Decision Making",
+        "child": []
+    },
+    "Board Game": {
+        "base": "게임 AI",
+        "child": [
+            "Minimax",
+            "AB Pruning",
+            "MCTS"
+        ]
+    },
+    "Minimax": {
+        "base": "Board Game",
+        "child": []
+    },
+    "AB Pruning": {
+        "base": "Board Game",
+        "child": []
+    },
+    "MCTS": {
+        "base": "Board Game",
+        "child": []
+    },
+    "움직임": {
+        "base": "게임 AI",
+        "child": []
+    },
+    "학습": {
+        "base": "게임 AI",
+        "child": [
+            "강화 학습",
+            "인공 신경망",
+            "딥러닝",
+            "Decision Learning",
+            "Naïve Bayes Classifier",
+            "Decision Tree Learning"
+        ]
+    },
+    "강화 학습": {
+        "base": "학습",
+        "child": []
+    },
+    "인공 신경망": {
+        "base": "학습",
+        "child": []
+    },
+    "딥러닝": {
+        "base": "학습",
+        "child": []
+    },
+    "Decision Learning": {
+        "base": "학습",
+        "child": []
+    },
+    "Naïve Bayes Classifier": {
+        "base": "학습",
+        "child": []
+    },
+    "Decision Tree Learning": {
+        "base": "학습",
+        "child": []
+    },
+    "Advanced Rendering": {
+        "base": "게임 클라이언트",
+        "child": [
+            "Decal",
+            "Billboard",
+            "Structure Buffer",
+            "Volumetric Effect",
+            "Ambient Occlusion",
+            "Atmospheric Shadowing",
+            "모션블러",
+            "Isosurface Extraction",
+            "Physically-Based Rendering",
+            "실시간 레이트레이싱"
+        ]
+    },
+    "Decal": {
+        "base": "Advanced Rendering",
+        "child": []
+    },
+    "Billboard": {
+        "base": "Advanced Rendering",
+        "child": [
+            "Spherical",
+            "Cylindrical",
+            "Polyboard"
+        ]
+    },
+    "Spherical": {
+        "base": "Billboard",
+        "child": []
+    },
+    "Cylindrical": {
+        "base": "Billboard",
+        "child": []
+    },
+    "Polyboard": {
+        "base": "Billboard",
+        "child": []
+    },
+    "Structure Buffer": {
+        "base": "Advanced Rendering",
+        "child": []
+    },
+    "Volumetric Effect": {
+        "base": "Advanced Rendering",
+        "child": [
+            "Halo",
+            "Shaft"
+        ]
+    },
+    "Halo": {
+        "base": "Volumetric Effect",
+        "child": []
+    },
+    "Shaft": {
+        "base": "Volumetric Effect",
+        "child": []
+    },
+    "Ambient Occlusion": {
+        "base": "Advanced Rendering",
+        "child": []
+    },
+    "Atmospheric Shadowing": {
+        "base": "Advanced Rendering",
+        "child": []
+    },
+    "모션블러": {
+        "base": "Advanced Rendering",
+        "child": []
+    },
+    "Isosurface Extraction": {
+        "base": "Advanced Rendering",
+        "child": [
+            "Marching Cube"
+        ]
+    },
+    "Marching Cube": {
+        "base": "Isosurface Extraction",
+        "child": []
+    },
+    "Physically-Based Rendering": {
+        "base": "Advanced Rendering",
+        "child": [
+            "Translucency and Transparency",
+            "Conservation of Energy",
+            "Metallicity",
+            "Microsurface Scattering"
+        ]
+    },
+    "Translucency and Transparency": {
+        "base": "Physically-Based Rendering",
+        "child": []
+    },
+    "Conservation of Energy": {
+        "base": "Physically-Based Rendering",
+        "child": []
+    },
+    "Metallicity": {
+        "base": "Physically-Based Rendering",
+        "child": []
+    },
+    "Microsurface Scattering": {
+        "base": "Physically-Based Rendering",
+        "child": []
+    },
+    "실시간 레이트레이싱": {
+        "base": "Advanced Rendering",
+        "child": [
+            "DirectX 레이트레이싱",
+            "Vulkan 레이트레이싱",
+            "OptiX"
+        ]
+    },
+    "DirectX 레이트레이싱": {
+        "base": "실시간 레이트레이싱",
+        "child": []
+    },
+    "Vulkan 레이트레이싱": {
+        "base": "실시간 레이트레이싱",
+        "child": []
+    },
+    "OptiX": {
+        "base": "실시간 레이트레이싱",
+        "child": []
+    }
+}

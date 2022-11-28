@@ -1,0 +1,314 @@
+{
+    "Deep Learning": {
+        "base": "Deep Learning",
+        "child": [
+            "Papers",
+            "신경 네트워크",
+            "아키텍처",
+            "훈련",
+            "도구",
+            "Model Optimization"
+        ]
+    },
+    "Papers": {
+        "base": "Deep Learning",
+        "child": [
+            "Deep Learning 종이와 로드맵 읽기",
+            "papers with code",
+            "papers with code - state of the art"
+        ]
+    },
+    "Deep Learning 종이와 로드맵 읽기": {
+        "base": "Papers",
+        "child": []
+    },
+    "papers with code": {
+        "base": "Papers",
+        "child": []
+    },
+    "papers with code - state of the art": {
+        "base": "Papers",
+        "child": []
+    },
+    "신경 네트워크": {
+        "base": "Deep Learning",
+        "child": [
+            "신경 네트워크 이해",
+            "loss functions",
+            "activation funtions",
+            "weight initialization",
+            "vanishing / exploding / gradient problem"
+        ]
+    },
+    "신경 네트워크 이해": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "loss functions": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "activation funtions": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "weight initialization": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "vanishing / exploding / gradient problem": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "아키텍처": {
+        "base": "Deep Learning",
+        "child": [
+            "순방향 신경망",
+            "autoencoder",
+            "합성곱 신경망",
+            "순환 신경망",
+            "Transformer",
+            "siamese network",
+            "생성적 대립 신경망",
+            "evolving architecture / NEAT",
+            "Residual Connections"
+        ]
+    },
+    "순방향 신경망": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "autoencoder": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "합성곱 신경망": {
+        "base": "아키텍처",
+        "child": [
+            "Pooling"
+        ]
+    },
+    "Pooling": {
+        "base": "합성곱 신경망",
+        "child": []
+    },
+    "순환 신경망": {
+        "base": "아키텍처",
+        "child": [
+            "LSTM",
+            "GRU"
+        ]
+    },
+    "LSTM": {
+        "base": "순환 신경망",
+        "child": []
+    },
+    "GRU": {
+        "base": "순환 신경망",
+        "child": []
+    },
+    "Transformer": {
+        "base": "아키텍처",
+        "child": [
+            "인코더",
+            "디코더",
+            "어텐션"
+        ]
+    },
+    "인코더": {
+        "base": "Transformer",
+        "child": []
+    },
+    "디코더": {
+        "base": "Transformer",
+        "child": []
+    },
+    "어텐션": {
+        "base": "Transformer",
+        "child": []
+    },
+    "siamese network": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "생성적 대립 신경망": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "evolving architecture / NEAT": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "Residual Connections": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "훈련": {
+        "base": "Deep Learning",
+        "child": [
+            "Optimizers",
+            "Learning rate schedule",
+            "배치 정규화",
+            "batch size effects",
+            "조직화",
+            "multitask learning",
+            "Transfer Learning",
+            "Curriculum Learning"
+        ]
+    },
+    "Optimizers": {
+        "base": "훈련",
+        "child": [
+            "SGD",
+            "Momentum",
+            "Adam",
+            "AdaGrad",
+            "AdaDelta",
+            "Nadam",
+            "RMSProp"
+        ]
+    },
+    "SGD": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Momentum": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Adam": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "AdaGrad": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "AdaDelta": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Nadam": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "RMSProp": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Learning rate schedule": {
+        "base": "훈련",
+        "child": []
+    },
+    "배치 정규화": {
+        "base": "훈련",
+        "child": []
+    },
+    "batch size effects": {
+        "base": "훈련",
+        "child": []
+    },
+    "조직화": {
+        "base": "훈련",
+        "child": [
+            "early stopping",
+            "dropout",
+            "parameter Penalties",
+            "Data Augumentation",
+            "Adversarial Trainning"
+        ]
+    },
+    "early stopping": {
+        "base": "조직화",
+        "child": []
+    },
+    "dropout": {
+        "base": "조직화",
+        "child": []
+    },
+    "parameter Penalties": {
+        "base": "조직화",
+        "child": []
+    },
+    "Data Augumentation": {
+        "base": "조직화",
+        "child": []
+    },
+    "Adversarial Trainning": {
+        "base": "조직화",
+        "child": []
+    },
+    "multitask learning": {
+        "base": "훈련",
+        "child": []
+    },
+    "Transfer Learning": {
+        "base": "훈련",
+        "child": []
+    },
+    "Curriculum Learning": {
+        "base": "훈련",
+        "child": []
+    },
+    "도구": {
+        "base": "Deep Learning",
+        "child": [
+            "중요 라이브러리",
+            "Tenserflow",
+            "PyTorch",
+            "Tensorboard",
+            "MLFlow"
+        ]
+    },
+    "중요 라이브러리": {
+        "base": "도구",
+        "child": [
+            "Aweseome Deep Learning",
+            "Huggingface Transformers"
+        ]
+    },
+    "Aweseome Deep Learning": {
+        "base": "중요 라이브러리",
+        "child": []
+    },
+    "Huggingface Transformers": {
+        "base": "중요 라이브러리",
+        "child": []
+    },
+    "Tenserflow": {
+        "base": "도구",
+        "child": []
+    },
+    "PyTorch": {
+        "base": "도구",
+        "child": []
+    },
+    "Tensorboard": {
+        "base": "도구",
+        "child": []
+    },
+    "MLFlow": {
+        "base": "도구",
+        "child": []
+    },
+    "Model Optimization": {
+        "base": "Deep Learning",
+        "child": [
+            "Distillation",
+            "Quantization",
+            "Neural Architecture Search"
+        ]
+    },
+    "Distillation": {
+        "base": "Model Optimization",
+        "child": []
+    },
+    "Quantization": {
+        "base": "Model Optimization",
+        "child": []
+    },
+    "Neural Architecture Search": {
+        "base": "Model Optimization",
+        "child": []
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "Data Engineer": {
+        "base": "Data Engineer",
+        "child": [
+            "데이터 형태 요약",
+            "데이터 발견",
+            "Data Source & Acquisition",
+            "데이터 통합",
+            "데이터 퓨전",
+            "Transformation & Enrichment",
+            "데이터 조사",
+            "OpenRefine",
+            "How much Data",
+            "Using ETL",
+            "Data Lake vs Data Warehouse",
+            "Dockerize your Python Application"
+        ]
+    },
+    "데이터 형태 요약": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 발견": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Data Source & Acquisition": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 통합": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 퓨전": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Transformation & Enrichment": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 조사": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "OpenRefine": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "How much Data": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Using ETL": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Data Lake vs Data Warehouse": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Dockerize your Python Application": {
+        "base": "Data Engineer",
+        "child": []
+    }
+}

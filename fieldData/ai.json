@@ -1,0 +1,1130 @@
+{
+    "Fundamentals": {
+        "base": "AI",
+        "child": [
+            "Fundamental"
+        ]
+    },
+    "Fundamental": {
+        "base": "Fundamentals",
+        "child": [
+            "행렬 및 선형 대수학 기초",
+            "데이터베이스 Fundamental",
+            "표 형식 데이터",
+            "데이터 프레임 및 시리즈",
+            "ETL",
+            "보고 vs 비즈니스 지식 vs 분석",
+            "데이터 형태",
+            "정규식(RegEx)"
+        ]
+    },
+    "행렬 및 선형 대수학 기초": {
+        "base": "Fundamental",
+        "child": []
+    },
+    "데이터베이스 Fundamental": {
+        "base": "Fundamental",
+        "child": [
+            "관계형 vs 비관계형 데이터베이스",
+            "SQL + Joins(Inner, Outer, Cross, Theta Join)",
+            "NoSQL"
+        ]
+    },
+    "관계형 vs 비관계형 데이터베이스": {
+        "base": "데이터베이스 Fundamental",
+        "child": []
+    },
+    "SQL + Joins(Inner, Outer, Cross, Theta Join)": {
+        "base": "데이터베이스 Fundamental",
+        "child": []
+    },
+    "NoSQL": {
+        "base": "데이터베이스 Fundamental",
+        "child": []
+    },
+    "표 형식 데이터": {
+        "base": "Fundamental",
+        "child": []
+    },
+    "데이터 프레임 및 시리즈": {
+        "base": "Fundamental",
+        "child": []
+    },
+    "ETL": {
+        "base": "Fundamental",
+        "child": []
+    },
+    "보고 vs 비즈니스 지식 vs 분석": {
+        "base": "Fundamental",
+        "child": []
+    },
+    "데이터 형태": {
+        "base": "Fundamental",
+        "child": [
+            "JSON",
+            "XML",
+            "CSV"
+        ]
+    },
+    "JSON": {
+        "base": "데이터 형태",
+        "child": []
+    },
+    "XML": {
+        "base": "데이터 형태",
+        "child": []
+    },
+    "CSV": {
+        "base": "데이터 형태",
+        "child": []
+    },
+    "정규식(RegEx)": {
+        "base": "Fundamental",
+        "child": []
+    },
+    "파이썬 프로그래밍": {
+        "base": "AI",
+        "child": [
+            "파이썬 기초",
+            "중요한 라이브러리",
+            "가상환경",
+            "주피터 노트북/랩"
+        ]
+    },
+    "파이썬 기초": {
+        "base": "파이썬 프로그래밍",
+        "child": [
+            "표현식",
+            "변수",
+            "데이터 구조",
+            "패키지 설치(pip , conda)",
+            "코드스타일  "
+        ]
+    },
+    "표현식": {
+        "base": "파이썬 기초",
+        "child": []
+    },
+    "변수": {
+        "base": "파이썬 기초",
+        "child": []
+    },
+    "데이터 구조": {
+        "base": "파이썬 기초",
+        "child": []
+    },
+    "패키지 설치(pip , conda)": {
+        "base": "파이썬 기초",
+        "child": []
+    },
+    "코드스타일  ": {
+        "base": "파이썬 기초",
+        "child": []
+    },
+    "중요한 라이브러리": {
+        "base": "파이썬 프로그래밍",
+        "child": [
+            "넘파이",
+            "판다스"
+        ]
+    },
+    "넘파이": {
+        "base": "중요한 라이브러리",
+        "child": []
+    },
+    "판다스": {
+        "base": "중요한 라이브러리",
+        "child": []
+    },
+    "가상환경": {
+        "base": "파이썬 프로그래밍",
+        "child": []
+    },
+    "주피터 노트북/랩": {
+        "base": "파이썬 프로그래밍",
+        "child": []
+    },
+    "데이터 원천": {
+        "base": "AI",
+        "child": [
+            "데이터 채굴",
+            "웹 스크래핑",
+            "훌륭한 공공 데이터",
+            "케글"
+        ]
+    },
+    "데이터 채굴": {
+        "base": "데이터 원천",
+        "child": []
+    },
+    "웹 스크래핑": {
+        "base": "데이터 원천",
+        "child": []
+    },
+    "훌륭한 공공 데이터": {
+        "base": "데이터 원천",
+        "child": []
+    },
+    "케글": {
+        "base": "데이터 원천",
+        "child": []
+    },
+    "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링": {
+        "base": "AI",
+        "child": [
+            "주요 구성 요소 분석(PCA)",
+            "차원&수 절감",
+            "표준화",
+            "데이터 스크러빙. 결측값 다루기",
+            "비편향 추정량",
+            "희소값 구간화",
+            "피쳐 추출",
+            "노이즈감소",
+            "샘플링"
+        ]
+    },
+    "주요 구성 요소 분석(PCA)": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "차원&수 절감": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "표준화": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "데이터 스크러빙. 결측값 다루기": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "비편향 추정량": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "희소값 구간화": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "피쳐 추출": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "노이즈감소": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "샘플링": {
+        "base": "탐색적 데이터 분석 / 데이터 통합 ​​/ 랭글링",
+        "child": []
+    },
+    "데이터 과학": {
+        "base": "AI",
+        "child": [
+            "통계학",
+            "시각화"
+        ]
+    },
+    "통계학": {
+        "base": "데이터 과학",
+        "child": [
+            "연속 분배",
+            "이산형 분포",
+            "요약 통계학",
+            "중요한 법칙",
+            "추정",
+            "가설 테스트",
+            "신뢰구간",
+            "몬테카를로 방법"
+        ]
+    },
+    "통게학": {
+        "base": "AI",
+        "child": [
+            "확률 이론"
+        ]
+    },
+    "확률 이론": {
+        "base": "통게학",
+        "child": [
+            "임의의 변수와 무작위 표본",
+            "확률분포",
+            "조건부 확률과 Bayes 정리",
+            "통계적 독립성",
+            "iid",
+            "cdf,pdf,pmf"
+        ]
+    },
+    "임의의 변수와 무작위 표본": {
+        "base": "확률 이론",
+        "child": []
+    },
+    "확률분포": {
+        "base": "확률 이론",
+        "child": []
+    },
+    "조건부 확률과 Bayes 정리": {
+        "base": "확률 이론",
+        "child": []
+    },
+    "통계적 독립성": {
+        "base": "확률 이론",
+        "child": []
+    },
+    "iid": {
+        "base": "확률 이론",
+        "child": []
+    },
+    "cdf,pdf,pmf": {
+        "base": "확률 이론",
+        "child": [
+            "누적분포함수",
+            "확률밀도함수",
+            "확률 질량 함수"
+        ]
+    },
+    "누적분포함수": {
+        "base": "cdf,pdf,pmf",
+        "child": []
+    },
+    "확률밀도함수": {
+        "base": "cdf,pdf,pmf",
+        "child": []
+    },
+    "확률 질량 함수": {
+        "base": "cdf,pdf,pmf",
+        "child": []
+    },
+    "연속 분배": {
+        "base": "통계학",
+        "child": [
+            "노말 / 가우스",
+            "Uniform(continuous)",
+            "베타",
+            "디리클레",
+            "지수",
+            "카이제곱"
+        ]
+    },
+    "노말 / 가우스": {
+        "base": "연속 분배",
+        "child": []
+    },
+    "Uniform(continuous)": {
+        "base": "연속 분배",
+        "child": []
+    },
+    "베타": {
+        "base": "연속 분배",
+        "child": []
+    },
+    "디리클레": {
+        "base": "연속 분배",
+        "child": []
+    },
+    "지수": {
+        "base": "연속 분배",
+        "child": []
+    },
+    "카이제곱": {
+        "base": "연속 분배",
+        "child": []
+    },
+    "이산형 분포": {
+        "base": "통계학",
+        "child": [
+            "Uniform(discrete)",
+            "이항식",
+            "다항식",
+            "초기하",
+            "푸아송",
+            "기하학"
+        ]
+    },
+    "Uniform(discrete)": {
+        "base": "이산형 분포",
+        "child": []
+    },
+    "이항식": {
+        "base": "이산형 분포",
+        "child": []
+    },
+    "다항식": {
+        "base": "이산형 분포",
+        "child": []
+    },
+    "초기하": {
+        "base": "이산형 분포",
+        "child": []
+    },
+    "푸아송": {
+        "base": "이산형 분포",
+        "child": []
+    },
+    "기하학": {
+        "base": "이산형 분포",
+        "child": []
+    },
+    "요약 통계학": {
+        "base": "통계학",
+        "child": [
+            "기댓값과 평균",
+            "분산 및 표준 편차",
+            "공분산 및 상관 관계",
+            "중위수, 사분위수",
+            "사분위간 범위",
+            "백분위수/분위수",
+            "최빈값"
+        ]
+    },
+    "기댓값과 평균": {
+        "base": "요약 통계학",
+        "child": []
+    },
+    "분산 및 표준 편차": {
+        "base": "요약 통계학",
+        "child": []
+    },
+    "공분산 및 상관 관계": {
+        "base": "요약 통계학",
+        "child": []
+    },
+    "중위수, 사분위수": {
+        "base": "요약 통계학",
+        "child": []
+    },
+    "사분위간 범위": {
+        "base": "요약 통계학",
+        "child": []
+    },
+    "백분위수/분위수": {
+        "base": "요약 통계학",
+        "child": []
+    },
+    "최빈값": {
+        "base": "요약 통계학",
+        "child": []
+    },
+    "중요한 법칙": {
+        "base": "통계학",
+        "child": [
+            "큰 수의 법칙",
+            "중심극한정리"
+        ]
+    },
+    "큰 수의 법칙": {
+        "base": "중요한 법칙",
+        "child": []
+    },
+    "중심극한정리": {
+        "base": "중요한 법칙",
+        "child": []
+    },
+    "추정": {
+        "base": "통계학",
+        "child": [
+            "최대우도추정",
+            "커널밀도추정"
+        ]
+    },
+    "최대우도추정": {
+        "base": "추정",
+        "child": []
+    },
+    "커널밀도추정": {
+        "base": "추정",
+        "child": []
+    },
+    "가설 테스트": {
+        "base": "통계학",
+        "child": []
+    },
+    "가설테스트": {
+        "base": "AI",
+        "child": [
+            "p-value",
+            "카이제곱 검증",
+            "F-검증",
+            "t-검증"
+        ]
+    },
+    "p-value": {
+        "base": "가설테스트",
+        "child": []
+    },
+    "카이제곱 검증": {
+        "base": "가설테스트",
+        "child": []
+    },
+    "F-검증": {
+        "base": "가설테스트",
+        "child": []
+    },
+    "t-검증": {
+        "base": "가설테스트",
+        "child": []
+    },
+    "신뢰구간": {
+        "base": "통계학",
+        "child": []
+    },
+    "몬테카를로 방법": {
+        "base": "통계학",
+        "child": []
+    },
+    "시각화": {
+        "base": "데이터 과학",
+        "child": [
+            "차트 사고 스타터",
+            "파이썬",
+            "웹",
+            "대쉬보드",
+            "BI"
+        ]
+    },
+    "차트 사고 스타터": {
+        "base": "시각화",
+        "child": []
+    },
+    "파이썬": {
+        "base": "시각화",
+        "child": [
+            "Matplotlib",
+            "plotnine",
+            "Bokeh",
+            "seaborn",
+            "ipyvolume(3D data)",
+            "streamlit"
+        ]
+    },
+    "Matplotlib": {
+        "base": "파이썬",
+        "child": []
+    },
+    "plotnine": {
+        "base": "파이썬",
+        "child": []
+    },
+    "Bokeh": {
+        "base": "파이썬",
+        "child": []
+    },
+    "seaborn": {
+        "base": "파이썬",
+        "child": []
+    },
+    "ipyvolume(3D data)": {
+        "base": "파이썬",
+        "child": []
+    },
+    "streamlit": {
+        "base": "파이썬",
+        "child": []
+    },
+    "웹": {
+        "base": "시각화",
+        "child": [
+            "Vega-Lite",
+            "D3.js"
+        ]
+    },
+    "Vega-Lite": {
+        "base": "웹",
+        "child": []
+    },
+    "D3.js": {
+        "base": "웹",
+        "child": []
+    },
+    "대쉬보드": {
+        "base": "시각화",
+        "child": [
+            "Dash"
+        ]
+    },
+    "Dash": {
+        "base": "대쉬보드",
+        "child": []
+    },
+    "BI": {
+        "base": "시각화",
+        "child": [
+            "Tableau",
+            "PowerBI"
+        ]
+    },
+    "Tableau": {
+        "base": "BI",
+        "child": []
+    },
+    "PowerBI": {
+        "base": "BI",
+        "child": []
+    },
+    "Deep Learning": {
+        "base": "AI",
+        "child": [
+            "Papers",
+            "신경 네트워크",
+            "아키텍처",
+            "훈련",
+            "도구",
+            "Model Optimization"
+        ]
+    },
+    "Papers": {
+        "base": "Deep Learning",
+        "child": [
+            "Deep Learning 종이와 로드맵 읽기",
+            "papers with code",
+            "papers with code - state of the art"
+        ]
+    },
+    "Deep Learning 종이와 로드맵 읽기": {
+        "base": "Papers",
+        "child": []
+    },
+    "papers with code": {
+        "base": "Papers",
+        "child": []
+    },
+    "papers with code - state of the art": {
+        "base": "Papers",
+        "child": []
+    },
+    "신경 네트워크": {
+        "base": "Deep Learning",
+        "child": [
+            "신경 네트워크 이해",
+            "loss functions",
+            "activation funtions",
+            "weight initialization",
+            "vanishing / exploding / gradient problem"
+        ]
+    },
+    "신경 네트워크 이해": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "loss functions": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "activation funtions": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "weight initialization": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "vanishing / exploding / gradient problem": {
+        "base": "신경 네트워크",
+        "child": []
+    },
+    "아키텍처": {
+        "base": "Deep Learning",
+        "child": [
+            "순방향 신경망",
+            "autoencoder",
+            "합성곱 신경망",
+            "순환 신경망",
+            "Transformer",
+            "siamese network",
+            "생성적 대립 신경망",
+            "evolving architecture / NEAT",
+            "Residual Connections"
+        ]
+    },
+    "순방향 신경망": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "autoencoder": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "합성곱 신경망": {
+        "base": "아키텍처",
+        "child": [
+            "Pooling"
+        ]
+    },
+    "Pooling": {
+        "base": "합성곱 신경망",
+        "child": []
+    },
+    "순환 신경망": {
+        "base": "아키텍처",
+        "child": [
+            "LSTM",
+            "GRU"
+        ]
+    },
+    "LSTM": {
+        "base": "순환 신경망",
+        "child": []
+    },
+    "GRU": {
+        "base": "순환 신경망",
+        "child": []
+    },
+    "Transformer": {
+        "base": "아키텍처",
+        "child": [
+            "인코더",
+            "디코더",
+            "어텐션"
+        ]
+    },
+    "인코더": {
+        "base": "Transformer",
+        "child": []
+    },
+    "디코더": {
+        "base": "Transformer",
+        "child": []
+    },
+    "어텐션": {
+        "base": "Transformer",
+        "child": []
+    },
+    "siamese network": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "생성적 대립 신경망": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "evolving architecture / NEAT": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "Residual Connections": {
+        "base": "아키텍처",
+        "child": []
+    },
+    "훈련": {
+        "base": "Deep Learning",
+        "child": [
+            "Optimizers",
+            "Learning rate schedule",
+            "배치 정규화",
+            "batch size effects",
+            "조직화",
+            "multitask learning",
+            "Transfer Learning",
+            "Curriculum Learning"
+        ]
+    },
+    "Optimizers": {
+        "base": "훈련",
+        "child": [
+            "SGD",
+            "Momentum",
+            "Adam",
+            "AdaGrad",
+            "AdaDelta",
+            "Nadam",
+            "RMSProp"
+        ]
+    },
+    "SGD": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Momentum": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Adam": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "AdaGrad": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "AdaDelta": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Nadam": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "RMSProp": {
+        "base": "Optimizers",
+        "child": []
+    },
+    "Learning rate schedule": {
+        "base": "훈련",
+        "child": []
+    },
+    "배치 정규화": {
+        "base": "훈련",
+        "child": []
+    },
+    "batch size effects": {
+        "base": "훈련",
+        "child": []
+    },
+    "조직화": {
+        "base": "훈련",
+        "child": [
+            "early stopping",
+            "dropout",
+            "parameter Penalties",
+            "Data Augumentation",
+            "Adversarial Trainning"
+        ]
+    },
+    "early stopping": {
+        "base": "조직화",
+        "child": []
+    },
+    "dropout": {
+        "base": "조직화",
+        "child": []
+    },
+    "parameter Penalties": {
+        "base": "조직화",
+        "child": []
+    },
+    "Data Augumentation": {
+        "base": "조직화",
+        "child": []
+    },
+    "Adversarial Trainning": {
+        "base": "조직화",
+        "child": []
+    },
+    "multitask learning": {
+        "base": "훈련",
+        "child": []
+    },
+    "Transfer Learning": {
+        "base": "훈련",
+        "child": []
+    },
+    "Curriculum Learning": {
+        "base": "훈련",
+        "child": []
+    },
+    "도구": {
+        "base": "BigData Engineer",
+        "child": [
+            "Check the Awesome Big Data List",
+            "Hadoop",
+            "Spark",
+            "RAPIDS",
+            "Flume, Scribe(For Unstruct Data)",
+            "Data Warehouse with Hive",
+            "Elastic Stack",
+            "Avro",
+            "Flink",
+            "Dask",
+            "Numba",
+            "Onnx",
+            "OpenVino",
+            "MLFlow",
+            "Kafka & KSQL",
+            "Databases",
+            "Scalability",
+            "Cloud Services",
+            "AweSome Production ML"
+        ]
+    },
+    "중요 라이브러리": {
+        "base": "도구",
+        "child": [
+            "Aweseome Deep Learning",
+            "Huggingface Transformers"
+        ]
+    },
+    "Aweseome Deep Learning": {
+        "base": "중요 라이브러리",
+        "child": []
+    },
+    "Huggingface Transformers": {
+        "base": "중요 라이브러리",
+        "child": []
+    },
+    "Tenserflow": {
+        "base": "도구",
+        "child": []
+    },
+    "PyTorch": {
+        "base": "도구",
+        "child": []
+    },
+    "Tensorboard": {
+        "base": "도구",
+        "child": []
+    },
+    "MLFlow": {
+        "base": "도구",
+        "child": []
+    },
+    "Model Optimization": {
+        "base": "Deep Learning",
+        "child": [
+            "Distillation",
+            "Quantization",
+            "Neural Architecture Search"
+        ]
+    },
+    "Distillation": {
+        "base": "Model Optimization",
+        "child": []
+    },
+    "Quantization": {
+        "base": "Model Optimization",
+        "child": []
+    },
+    "Neural Architecture Search": {
+        "base": "Model Optimization",
+        "child": []
+    },
+    "Data Engineer": {
+        "base": "AI",
+        "child": [
+            "데이터 형태 요약",
+            "데이터 발견",
+            "Data Source & Acquisition",
+            "데이터 통합",
+            "데이터 퓨전",
+            "Transformation & Enrichment",
+            "데이터 조사",
+            "OpenRefine",
+            "How much Data",
+            "Using ETL",
+            "Data Lake vs Data Warehouse",
+            "Dockerize your Python Application"
+        ]
+    },
+    "데이터 형태 요약": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 발견": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Data Source & Acquisition": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 통합": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 퓨전": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Transformation & Enrichment": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "데이터 조사": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "OpenRefine": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "How much Data": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Using ETL": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Data Lake vs Data Warehouse": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "Dockerize your Python Application": {
+        "base": "Data Engineer",
+        "child": []
+    },
+    "BigData Engineer": {
+        "base": "AI",
+        "child": [
+            "빅데이터 아키텍처",
+            "원리",
+            "도구"
+        ]
+    },
+    "빅데이터 아키텍처": {
+        "base": "BigData Engineer",
+        "child": [
+            "Architectural Patterns & Best Practices"
+        ]
+    },
+    "Architectural Patterns & Best Practices": {
+        "base": "빅데이터 아키텍처",
+        "child": []
+    },
+    "원리": {
+        "base": "BigData Engineer",
+        "child": [
+            "Horizontal vs vertical scaling",
+            "Map Reduce",
+            "Data Replication",
+            "Name & Data Nodes",
+            "Job & Task Tracker"
+        ]
+    },
+    "Horizontal vs vertical scaling": {
+        "base": "원리",
+        "child": []
+    },
+    "Map Reduce": {
+        "base": "원리",
+        "child": []
+    },
+    "Data Replication": {
+        "base": "원리",
+        "child": []
+    },
+    "Name & Data Nodes": {
+        "base": "원리",
+        "child": []
+    },
+    "Job & Task Tracker": {
+        "base": "원리",
+        "child": []
+    },
+    "Check the Awesome Big Data List": {
+        "base": "도구",
+        "child": []
+    },
+    "Hadoop": {
+        "base": "도구",
+        "child": [
+            "HDFS",
+            "Loading data with Sqoop and Pig",
+            "Storm : Hadoop Realtime"
+        ]
+    },
+    "HDFS": {
+        "base": "Hadoop",
+        "child": []
+    },
+    "Loading data with Sqoop and Pig": {
+        "base": "Hadoop",
+        "child": []
+    },
+    "Storm : Hadoop Realtime": {
+        "base": "Hadoop",
+        "child": []
+    },
+    "Spark": {
+        "base": "도구",
+        "child": []
+    },
+    "RAPIDS": {
+        "base": "도구",
+        "child": []
+    },
+    "Flume, Scribe(For Unstruct Data)": {
+        "base": "도구",
+        "child": []
+    },
+    "Data Warehouse with Hive": {
+        "base": "도구",
+        "child": []
+    },
+    "Elastic Stack": {
+        "base": "도구",
+        "child": []
+    },
+    "Avro": {
+        "base": "도구",
+        "child": []
+    },
+    "Flink": {
+        "base": "도구",
+        "child": []
+    },
+    "Dask": {
+        "base": "도구",
+        "child": []
+    },
+    "Numba": {
+        "base": "도구",
+        "child": []
+    },
+    "Onnx": {
+        "base": "도구",
+        "child": []
+    },
+    "OpenVino": {
+        "base": "도구",
+        "child": []
+    },
+    "Kafka & KSQL": {
+        "base": "도구",
+        "child": []
+    },
+    "Databases": {
+        "base": "도구",
+        "child": [
+            "Cassandra",
+            "MongoDB, Neo4j"
+        ]
+    },
+    "Cassandra": {
+        "base": "Databases",
+        "child": []
+    },
+    "MongoDB, Neo4j": {
+        "base": "Databases",
+        "child": []
+    },
+    "Scalability": {
+        "base": "도구",
+        "child": [
+            "ZooKeeper",
+            "Kubernetes"
+        ]
+    },
+    "ZooKeeper": {
+        "base": "Scalability",
+        "child": []
+    },
+    "Kubernetes": {
+        "base": "Scalability",
+        "child": []
+    },
+    "Cloud Services": {
+        "base": "도구",
+        "child": [
+            "AWS SageMaker",
+            "Google ML Engine",
+            "Microsoft Azure Machine Learning Studio"
+        ]
+    },
+    "AWS SageMaker": {
+        "base": "Cloud Services",
+        "child": []
+    },
+    "Google ML Engine": {
+        "base": "Cloud Services",
+        "child": []
+    },
+    "Microsoft Azure Machine Learning Studio": {
+        "base": "Cloud Services",
+        "child": []
+    },
+    "AweSome Production ML": {
+        "base": "도구",
+        "child": []
+    }
+}

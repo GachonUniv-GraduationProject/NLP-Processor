@@ -1,0 +1,390 @@
+{
+    "기본": {
+        "base": "Node.js",
+        "child": [
+            "node.js가 무엇인가",
+            "node.js를 왜 쓰는가",
+            "node.js의 역사",
+            "node.js vs browser",
+            "node.js 실행 시키기"
+        ]
+    },
+    "node.js가 무엇인가": {
+        "base": "기본",
+        "child": []
+    },
+    "node.js를 왜 쓰는가": {
+        "base": "기본",
+        "child": []
+    },
+    "node.js의 역사": {
+        "base": "기본",
+        "child": []
+    },
+    "node.js vs browser": {
+        "base": "기본",
+        "child": []
+    },
+    "node.js 실행 시키기": {
+        "base": "기본",
+        "child": []
+    },
+    "모듈": {
+        "base": "Node.js",
+        "child": [
+            "common formats",
+            "custom modules",
+            "[global] keyword"
+        ]
+    },
+    "common formats": {
+        "base": "모듈",
+        "child": []
+    },
+    "custom modules": {
+        "base": "모듈",
+        "child": []
+    },
+    "[global] keyword": {
+        "base": "모듈",
+        "child": []
+    },
+    "npm": {
+        "base": "Node.js",
+        "child": [
+            "creating packages",
+            "npx",
+            "installing packages",
+            "updating packages",
+            "using installed packages",
+            "running scripts",
+            "npm workspaces"
+        ]
+    },
+    "creating packages": {
+        "base": "npm",
+        "child": []
+    },
+    "npx": {
+        "base": "npm",
+        "child": []
+    },
+    "installing packages": {
+        "base": "npm",
+        "child": []
+    },
+    "updating packages": {
+        "base": "npm",
+        "child": []
+    },
+    "using installed packages": {
+        "base": "npm",
+        "child": []
+    },
+    "running scripts": {
+        "base": "npm",
+        "child": []
+    },
+    "npm workspaces": {
+        "base": "npm",
+        "child": []
+    },
+    "에러 핸들링": {
+        "base": "Node.js",
+        "child": [
+            "uncaught exceptions",
+            "types of errors",
+            "handling async errors",
+            "stack trace",
+            "디버깅"
+        ]
+    },
+    "uncaught exceptions": {
+        "base": "에러 핸들링",
+        "child": []
+    },
+    "types of errors": {
+        "base": "에러 핸들링",
+        "child": [
+            "javascript errors",
+            "system errors",
+            "user specified errors",
+            "assertion errors"
+        ]
+    },
+    "javascript errors": {
+        "base": "types of errors",
+        "child": []
+    },
+    "system errors": {
+        "base": "types of errors",
+        "child": []
+    },
+    "user specified errors": {
+        "base": "types of errors",
+        "child": []
+    },
+    "assertion errors": {
+        "base": "types of errors",
+        "child": []
+    },
+    "handling async errors": {
+        "base": "에러 핸들링",
+        "child": []
+    },
+    "stack trace": {
+        "base": "에러 핸들링",
+        "child": []
+    },
+    "디버깅": {
+        "base": "에러 핸들링",
+        "child": []
+    },
+    "비동기 프로그래밍": {
+        "base": "Node.js",
+        "child": [
+            "event loop",
+            "event emitter",
+            "writing async code"
+        ]
+    },
+    "event loop": {
+        "base": "비동기 프로그래밍",
+        "child": []
+    },
+    "event emitter": {
+        "base": "비동기 프로그래밍",
+        "child": []
+    },
+    "writing async code": {
+        "base": "비동기 프로그래밍",
+        "child": []
+    },
+    "파일 작업": {
+        "base": "Node.js",
+        "child": [
+            "fs module",
+            "path module",
+            "opensource packages",
+            "__filename"
+        ]
+    },
+    "fs module": {
+        "base": "파일 작업",
+        "child": []
+    },
+    "path module": {
+        "base": "파일 작업",
+        "child": []
+    },
+    "opensource packages": {
+        "base": "파일 작업",
+        "child": []
+    },
+    "__filename": {
+        "base": "파일 작업",
+        "child": []
+    },
+    "커맨드 라인 앱": {
+        "base": "Node.js",
+        "child": [
+            "환경 변수",
+            "아웃풋 출력하기",
+            "인풋 받아오기",
+            "command line args"
+        ]
+    },
+    "환경 변수": {
+        "base": "커맨드 라인 앱",
+        "child": []
+    },
+    "아웃풋 출력하기": {
+        "base": "커맨드 라인 앱",
+        "child": []
+    },
+    "인풋 받아오기": {
+        "base": "커맨드 라인 앱",
+        "child": []
+    },
+    "command line args": {
+        "base": "커맨드 라인 앱",
+        "child": []
+    },
+    "api들": {
+        "base": "Node.js",
+        "child": [
+            "http server",
+            "api 호출하기",
+            "authentication"
+        ]
+    },
+    "http server": {
+        "base": "api들",
+        "child": []
+    },
+    "api 호출하기": {
+        "base": "api들",
+        "child": []
+    },
+    "authentication": {
+        "base": "api들",
+        "child": []
+    },
+    "애플리케이션 지속적으로 실행시키기": {
+        "base": "Node.js",
+        "child": [
+            "nodemon package"
+        ]
+    },
+    "nodemon package": {
+        "base": "애플리케이션 지속적으로 실행시키기",
+        "child": []
+    },
+    "template engines": {
+        "base": "Node.js",
+        "child": [
+            "ejs",
+            "pug",
+            "marko"
+        ]
+    },
+    "ejs": {
+        "base": "template engines",
+        "child": []
+    },
+    "pug": {
+        "base": "template engines",
+        "child": []
+    },
+    "marko": {
+        "base": "template engines",
+        "child": []
+    },
+    "디비와 연동": {
+        "base": "Node.js",
+        "child": [
+            "document",
+            "relational"
+        ]
+    },
+    "document": {
+        "base": "디비와 연동",
+        "child": [
+            "mongoose package",
+            "prisma package"
+        ]
+    },
+    "mongoose package": {
+        "base": "document",
+        "child": []
+    },
+    "prisma package": {
+        "base": "document",
+        "child": []
+    },
+    "relational": {
+        "base": "디비와 연동",
+        "child": [
+            "knex package",
+            "typeorm package",
+            "sequelize package"
+        ]
+    },
+    "knex package": {
+        "base": "relational",
+        "child": []
+    },
+    "typeorm package": {
+        "base": "relational",
+        "child": []
+    },
+    "sequelize package": {
+        "base": "relational",
+        "child": []
+    },
+    "테스팅": {
+        "base": "Node.js",
+        "child": [
+            "jest",
+            "mocha",
+            "cypress"
+        ]
+    },
+    "jest": {
+        "base": "테스팅",
+        "child": []
+    },
+    "mocha": {
+        "base": "테스팅",
+        "child": []
+    },
+    "cypress": {
+        "base": "테스팅",
+        "child": []
+    },
+    "로깅": {
+        "base": "Node.js",
+        "child": [
+            "morgan",
+            "winston"
+        ]
+    },
+    "morgan": {
+        "base": "로깅",
+        "child": []
+    },
+    "winston": {
+        "base": "로깅",
+        "child": []
+    },
+    "keep app running": {
+        "base": "Node.js",
+        "child": [
+            "pm2",
+            "forever",
+            "nohup"
+        ]
+    },
+    "pm2": {
+        "base": "keep app running",
+        "child": []
+    },
+    "forever": {
+        "base": "keep app running",
+        "child": []
+    },
+    "nohup": {
+        "base": "keep app running",
+        "child": []
+    },
+    "스레드": {
+        "base": "Node.js",
+        "child": [
+            "child process",
+            "cluster",
+            "worker thread"
+        ]
+    },
+    "child process": {
+        "base": "스레드",
+        "child": []
+    },
+    "cluster": {
+        "base": "스레드",
+        "child": []
+    },
+    "worker thread": {
+        "base": "스레드",
+        "child": []
+    },
+    "common built-in modules": {
+        "base": "Node.js",
+        "child": [
+            "built-in modules"
+        ]
+    },
+    "built-in modules": {
+        "base": "common built-in modules",
+        "child": []
+    }
+}

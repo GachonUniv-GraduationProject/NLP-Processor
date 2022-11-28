@@ -1,0 +1,571 @@
+{
+    "Blockchain": {
+        "base": "Blockchain",
+        "child": [
+            "기초 블록체인 지식",
+            "일반 블록체인 지식",
+            "블록체인 시스템",
+            "Oracles",
+            "Smart Contracts",
+            "Smart Contract 프레임워크",
+            "보안",
+            "관리 플랫폼",
+            "버전 제어 시스템(VSC)",
+            "Repo 호스팅 서비스",
+            "dApps: 탈중앙 애플리케이션",
+            "스케일에 맞추기"
+        ]
+    },
+    "기초 블록체인 지식": {
+        "base": "Blockchain",
+        "child": [
+            "블록체인이란 무엇인가",
+            "탈중앙화",
+            "블록체인이 중요한 이유",
+            "블록체인 구조",
+            "블록체인 운영의 기본",
+            "적용과 활용"
+        ]
+    },
+    "블록체인이란 무엇인가": {
+        "base": "기초 블록체인 지식",
+        "child": []
+    },
+    "탈중앙화": {
+        "base": "기초 블록체인 지식",
+        "child": []
+    },
+    "블록체인이 중요한 이유": {
+        "base": "기초 블록체인 지식",
+        "child": []
+    },
+    "블록체인 구조": {
+        "base": "기초 블록체인 지식",
+        "child": []
+    },
+    "블록체인 운영의 기본": {
+        "base": "기초 블록체인 지식",
+        "child": []
+    },
+    "적용과 활용": {
+        "base": "기초 블록체인 지식",
+        "child": []
+    },
+    "일반 블록체인 지식": {
+        "base": "Blockchain",
+        "child": [
+            "저장소",
+            "채굴 및 인센티브 모델",
+            "탈중앙화 vs 신뢰",
+            "블록체인 포크",
+            "암호화폐",
+            "암호화폐 지갑",
+            "암호학",
+            "합의 프로토콜",
+            "블록체인 상호운용성"
+        ]
+    },
+    "저장소": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "채굴 및 인센티브 모델": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "탈중앙화 vs 신뢰": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "블록체인 포크": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "암호화폐": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "암호화폐 지갑": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "암호학": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "합의 프로토콜": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "블록체인 상호운용성": {
+        "base": "일반 블록체인 지식",
+        "child": []
+    },
+    "블록체인 시스템": {
+        "base": "Blockchain",
+        "child": [
+            "Solana",
+            "EVM based",
+            "L2 blockchains"
+        ]
+    },
+    "Solana": {
+        "base": "블록체인 시스템",
+        "child": []
+    },
+    "EVM based": {
+        "base": "블록체인 시스템",
+        "child": [
+            "이더리움",
+            "폴리곤"
+        ]
+    },
+    "이더리움": {
+        "base": "EVM based",
+        "child": []
+    },
+    "폴리곤": {
+        "base": "EVM based",
+        "child": []
+    },
+    "L2 blockchains": {
+        "base": "블록체인 시스템",
+        "child": [
+            "아비트럼"
+        ]
+    },
+    "아비트럼": {
+        "base": "L2 blockchains",
+        "child": []
+    },
+    "Oracles": {
+        "base": "Blockchain",
+        "child": [
+            "Hybrid smart contracts",
+            "Chainlink"
+        ]
+    },
+    "Hybrid smart contracts": {
+        "base": "Oracles",
+        "child": []
+    },
+    "Chainlink": {
+        "base": "Oracles",
+        "child": [
+            "Oracle Networks"
+        ]
+    },
+    "Oracle Networks": {
+        "base": "Chainlink",
+        "child": []
+    },
+    "Smart Contracts": {
+        "base": "Blockchain",
+        "child": [
+            "ERC 토큰",
+            "IDEs",
+            "크립토 수도꼭지",
+            "저장소 탈중앙화",
+            "프로그래밍 언어",
+            "테스트",
+            "전개, 배포",
+            "모니터링",
+            "업그레이드"
+        ]
+    },
+    "ERC 토큰": {
+        "base": "Smart Contracts",
+        "child": []
+    },
+    "IDEs": {
+        "base": "Smart Contracts",
+        "child": []
+    },
+    "크립토 수도꼭지": {
+        "base": "Smart Contracts",
+        "child": []
+    },
+    "저장소 탈중앙화": {
+        "base": "Smart Contracts",
+        "child": []
+    },
+    "프로그래밍 언어": {
+        "base": "Smart Contracts",
+        "child": [
+            "Solidity",
+            "Vyper",
+            "Rust"
+        ]
+    },
+    "Solidity": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "Vyper": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "Rust": {
+        "base": "프로그래밍 언어",
+        "child": []
+    },
+    "테스트": {
+        "base": "Smart Contracts",
+        "child": [
+            "유닛 테스트",
+            "통합 테스트",
+            "Code Coverage"
+        ]
+    },
+    "유닛 테스트": {
+        "base": "테스트",
+        "child": []
+    },
+    "통합 테스트": {
+        "base": "테스트",
+        "child": []
+    },
+    "Code Coverage": {
+        "base": "테스트",
+        "child": []
+    },
+    "전개, 배포": {
+        "base": "Smart Contracts",
+        "child": []
+    },
+    "모니터링": {
+        "base": "Smart Contracts",
+        "child": []
+    },
+    "업그레이드": {
+        "base": "Smart Contracts",
+        "child": []
+    },
+    "Smart Contract 프레임워크": {
+        "base": "Blockchain",
+        "child": [
+            "Hardhat",
+            "Brownie",
+            "Truffle",
+            "Foundry"
+        ]
+    },
+    "Hardhat": {
+        "base": "Smart Contract 프레임워크",
+        "child": []
+    },
+    "Brownie": {
+        "base": "Smart Contract 프레임워크",
+        "child": []
+    },
+    "Truffle": {
+        "base": "Smart Contract 프레임워크",
+        "child": []
+    },
+    "Foundry": {
+        "base": "Smart Contract 프레임워크",
+        "child": []
+    },
+    "보안": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": []
+    },
+    "사례": {
+        "base": "보안",
+        "child": [
+            "Fuzz 테스트 및 정적 분석",
+            "일반적인 위협 벡터",
+            "임의성 공격의 출처"
+        ]
+    },
+    "Fuzz 테스트 및 정적 분석": {
+        "base": "사례",
+        "child": []
+    },
+    "일반적인 위협 벡터": {
+        "base": "사례",
+        "child": []
+    },
+    "임의성 공격의 출처": {
+        "base": "사례",
+        "child": []
+    },
+    "툴": {
+        "base": "보안",
+        "child": [
+            "Slither",
+            "Manticore",
+            "MythX",
+            "Echidno"
+        ]
+    },
+    "Slither": {
+        "base": "툴",
+        "child": []
+    },
+    "Manticore": {
+        "base": "툴",
+        "child": []
+    },
+    "MythX": {
+        "base": "툴",
+        "child": []
+    },
+    "Echidno": {
+        "base": "툴",
+        "child": []
+    },
+    "관리 플랫폼": {
+        "base": "Blockchain",
+        "child": [
+            "OpenZeppelin"
+        ]
+    },
+    "OpenZeppelin": {
+        "base": "관리 플랫폼",
+        "child": []
+    },
+    "버전 제어 시스템(VSC)": {
+        "base": "Blockchain",
+        "child": [
+            "Git"
+        ]
+    },
+    "Git": {
+        "base": "버전 제어 시스템(VSC)",
+        "child": []
+    },
+    "Repo 호스팅 서비스": {
+        "base": "Blockchain",
+        "child": [
+            "GitHub",
+            "GitLab",
+            "BitBucket"
+        ]
+    },
+    "GitHub": {
+        "base": "Repo 호스팅 서비스",
+        "child": []
+    },
+    "GitLab": {
+        "base": "Repo 호스팅 서비스",
+        "child": []
+    },
+    "BitBucket": {
+        "base": "Repo 호스팅 서비스",
+        "child": []
+    },
+    "dApps: 탈중앙 애플리케이션": {
+        "base": "Blockchain",
+        "child": [
+            "프론트엔드 프레임워크",
+            "테스팅",
+            "적용, 배포",
+            "유지관리",
+            "구조",
+            "보안",
+            "적용가능성",
+            "Node as a Servie(NaaS)",
+            "지원 언어",
+            "클라이언트 라이브러리",
+            "클라이언트 노드"
+        ]
+    },
+    "프론트엔드 프레임워크": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": [
+            "React",
+            "Angular",
+            "Vue"
+        ]
+    },
+    "React": {
+        "base": "프론트엔드 프레임워크",
+        "child": []
+    },
+    "Angular": {
+        "base": "프론트엔드 프레임워크",
+        "child": []
+    },
+    "Vue": {
+        "base": "프론트엔드 프레임워크",
+        "child": []
+    },
+    "테스팅": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": []
+    },
+    "적용, 배포": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": []
+    },
+    "유지관리": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": []
+    },
+    "구조": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": []
+    },
+    "적용가능성": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": [
+            "보험",
+            "지불",
+            "NFTs",
+            "DEFi",
+            "DAOs"
+        ]
+    },
+    "보험": {
+        "base": "적용가능성",
+        "child": []
+    },
+    "지불": {
+        "base": "적용가능성",
+        "child": []
+    },
+    "NFTs": {
+        "base": "적용가능성",
+        "child": []
+    },
+    "DEFi": {
+        "base": "적용가능성",
+        "child": []
+    },
+    "DAOs": {
+        "base": "적용가능성",
+        "child": []
+    },
+    "Node as a Servie(NaaS)": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": [
+            "Alchemy",
+            "Infura",
+            "Moralis",
+            "Quicknode"
+        ]
+    },
+    "Alchemy": {
+        "base": "Node as a Servie(NaaS)",
+        "child": []
+    },
+    "Infura": {
+        "base": "Node as a Servie(NaaS)",
+        "child": []
+    },
+    "Moralis": {
+        "base": "클라이언트 라이브러리",
+        "child": []
+    },
+    "Quicknode": {
+        "base": "Node as a Servie(NaaS)",
+        "child": []
+    },
+    "지원 언어": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": [
+            "JavaScript",
+            "Python",
+            "Go"
+        ]
+    },
+    "JavaScript": {
+        "base": "지원 언어",
+        "child": []
+    },
+    "Python": {
+        "base": "지원 언어",
+        "child": []
+    },
+    "Go": {
+        "base": "지원 언어",
+        "child": []
+    },
+    "클라이언트 라이브러리": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": [
+            "ethers.js",
+            "web3.js",
+            "Moralis"
+        ]
+    },
+    "ethers.js": {
+        "base": "클라이언트 라이브러리",
+        "child": []
+    },
+    "web3.js": {
+        "base": "클라이언트 라이브러리",
+        "child": []
+    },
+    "클라이언트 노드": {
+        "base": "dApps: 탈중앙 애플리케이션",
+        "child": [
+            "Geth",
+            "Besu",
+            "Nethermind",
+            "Substrate"
+        ]
+    },
+    "Geth": {
+        "base": "클라이언트 노드",
+        "child": []
+    },
+    "Besu": {
+        "base": "클라이언트 노드",
+        "child": []
+    },
+    "Nethermind": {
+        "base": "클라이언트 노드",
+        "child": []
+    },
+    "Substrate": {
+        "base": "클라이언트 노드",
+        "child": []
+    },
+    "스케일에 맞추기": {
+        "base": "Blockchain",
+        "child": [
+            "상태 및 지불 채널",
+            "옵티미스틱 롤업",
+            "제로 지식 롤업",
+            "Validium",
+            "Plasma",
+            "Sidechains",
+            "이더리움 2.0",
+            "온체인 스케일링"
+        ]
+    },
+    "상태 및 지불 채널": {
+        "base": "스케일에 맞추기",
+        "child": []
+    },
+    "옵티미스틱 롤업": {
+        "base": "스케일에 맞추기",
+        "child": []
+    },
+    "제로 지식 롤업": {
+        "base": "스케일에 맞추기",
+        "child": []
+    },
+    "Validium": {
+        "base": "스케일에 맞추기",
+        "child": []
+    },
+    "Plasma": {
+        "base": "스케일에 맞추기",
+        "child": []
+    },
+    "Sidechains": {
+        "base": "스케일에 맞추기",
+        "child": []
+    },
+    "이더리움 2.0": {
+        "base": "스케일에 맞추기",
+        "child": []
+    },
+    "온체인 스케일링": {
+        "base": "스케일에 맞추기",
+        "child": []
+    }
+}

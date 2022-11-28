@@ -1,0 +1,317 @@
+{
+    "Machine Learning": {
+        "base": "Machine Learning",
+        "child": [
+            "일반",
+            "방법",
+            "Use Case",
+            "도구"
+        ]
+    },
+    "일반": {
+        "base": "Machine Learning",
+        "child": [
+            "개념, 입력값과 속성들",
+            "cost functions and gradient descent",
+            "overfitting / underfitting",
+            "훈련, 검증 및 테스트",
+            "precision vs recall",
+            "편향 & 분산",
+            "Lift"
+        ]
+    },
+    "개념, 입력값과 속성들": {
+        "base": "일반",
+        "child": [
+            "이산형 변수",
+            "순서형 변수",
+            "숫자형 변수"
+        ]
+    },
+    "이산형 변수": {
+        "base": "개념, 입력값과 속성들",
+        "child": []
+    },
+    "순서형 변수": {
+        "base": "개념, 입력값과 속성들",
+        "child": []
+    },
+    "숫자형 변수": {
+        "base": "개념, 입력값과 속성들",
+        "child": []
+    },
+    "cost functions and gradient descent": {
+        "base": "일반",
+        "child": []
+    },
+    "overfitting / underfitting": {
+        "base": "일반",
+        "child": []
+    },
+    "훈련, 검증 및 테스트": {
+        "base": "일반",
+        "child": []
+    },
+    "precision vs recall": {
+        "base": "일반",
+        "child": []
+    },
+    "편향 & 분산": {
+        "base": "일반",
+        "child": []
+    },
+    "Lift": {
+        "base": "일반",
+        "child": []
+    },
+    "방법": {
+        "base": "Machine Learning",
+        "child": [
+            "지도 학습",
+            "비지도형 학습",
+            "앙상블 러닝",
+            "강화형 기계 학습"
+        ]
+    },
+    "지도 학습": {
+        "base": "방법",
+        "child": [
+            "회귀"
+        ]
+    },
+    "회귀": {
+        "base": "지도 학습",
+        "child": [
+            "선형 회귀",
+            "포아송 회귀"
+        ]
+    },
+    "선형 회귀": {
+        "base": "회귀",
+        "child": []
+    },
+    "포아송 회귀": {
+        "base": "회귀",
+        "child": []
+    },
+    "지도학습": {
+        "base": "Machine Learning",
+        "child": [
+            "Classification"
+        ]
+    },
+    "Classification": {
+        "base": "지도학습",
+        "child": [
+            "classfication rate",
+            "결정 트리",
+            "로지스티 회귀",
+            "Naïve Bayes Classifiers",
+            "최근접 이웃 모델",
+            "SVM",
+            "가우시안 혼합 모델"
+        ]
+    },
+    "classfication rate": {
+        "base": "Classification",
+        "child": []
+    },
+    "결정 트리": {
+        "base": "Classification",
+        "child": []
+    },
+    "로지스티 회귀": {
+        "base": "Classification",
+        "child": []
+    },
+    "Naïve Bayes Classifiers": {
+        "base": "Classification",
+        "child": []
+    },
+    "최근접 이웃 모델": {
+        "base": "Classification",
+        "child": []
+    },
+    "SVM": {
+        "base": "Classification",
+        "child": []
+    },
+    "가우시안 혼합 모델": {
+        "base": "Classification",
+        "child": []
+    },
+    "비지도형 학습": {
+        "base": "방법",
+        "child": [
+            "클러스터 기법",
+            "연관규칙학습",
+            "차원 축소"
+        ]
+    },
+    "클러스터 기법": {
+        "base": "비지도형 학습",
+        "child": [
+            "계층적 군집화",
+            "K-means 군집화",
+            "DBSCAN",
+            "Fuzzy C-Means",
+            "평균이동",
+            "병합",
+            "OPTICS"
+        ]
+    },
+    "계층적 군집화": {
+        "base": "클러스터 기법",
+        "child": []
+    },
+    "K-means 군집화": {
+        "base": "클러스터 기법",
+        "child": []
+    },
+    "DBSCAN": {
+        "base": "클러스터 기법",
+        "child": []
+    },
+    "Fuzzy C-Means": {
+        "base": "클러스터 기법",
+        "child": []
+    },
+    "평균이동": {
+        "base": "클러스터 기법",
+        "child": []
+    },
+    "병합": {
+        "base": "클러스터 기법",
+        "child": []
+    },
+    "OPTICS": {
+        "base": "클러스터 기법",
+        "child": []
+    },
+    "연관규칙학습": {
+        "base": "비지도형 학습",
+        "child": [
+            "apriori 알고리즘",
+            "ECLAT 알고리즘",
+            "FP 트리"
+        ]
+    },
+    "apriori 알고리즘": {
+        "base": "연관규칙학습",
+        "child": []
+    },
+    "ECLAT 알고리즘": {
+        "base": "연관규칙학습",
+        "child": []
+    },
+    "FP 트리": {
+        "base": "연관규칙학습",
+        "child": []
+    },
+    "차원 축소": {
+        "base": "비지도형 학습",
+        "child": [
+            "주요 구성 요소 분석(PCA)",
+            "random projection",
+            "NMF",
+            "T_SNE",
+            "UMAP"
+        ]
+    },
+    "주요 구성 요소 분석(PCA)": {
+        "base": "차원 축소",
+        "child": []
+    },
+    "random projection": {
+        "base": "차원 축소",
+        "child": []
+    },
+    "NMF": {
+        "base": "차원 축소",
+        "child": []
+    },
+    "T_SNE": {
+        "base": "차원 축소",
+        "child": []
+    },
+    "UMAP": {
+        "base": "차원 축소",
+        "child": []
+    },
+    "앙상블 러닝": {
+        "base": "방법",
+        "child": [
+            "Boosting",
+            "Bagging",
+            "Stacking"
+        ]
+    },
+    "Boosting": {
+        "base": "앙상블 러닝",
+        "child": []
+    },
+    "Bagging": {
+        "base": "앙상블 러닝",
+        "child": []
+    },
+    "Stacking": {
+        "base": "앙상블 러닝",
+        "child": []
+    },
+    "강화형 기계 학습": {
+        "base": "방법",
+        "child": [
+            "Q-Learning"
+        ]
+    },
+    "Q-Learning": {
+        "base": "강화형 기계 학습",
+        "child": []
+    },
+    "Use Case": {
+        "base": "Machine Learning",
+        "child": [
+            "감정 분석",
+            "협업 필터링 알고리즘",
+            "태깅",
+            "예측"
+        ]
+    },
+    "감정 분석": {
+        "base": "Use Case",
+        "child": []
+    },
+    "협업 필터링 알고리즘": {
+        "base": "Use Case",
+        "child": []
+    },
+    "태깅": {
+        "base": "Use Case",
+        "child": []
+    },
+    "예측": {
+        "base": "Use Case",
+        "child": []
+    },
+    "도구": {
+        "base": "Machine Learning",
+        "child": [
+            "주요 라이브러리"
+        ]
+    },
+    "주요 라이브러리": {
+        "base": "도구",
+        "child": [
+            "scikit-learn",
+            "spacy(NLP)"
+        ]
+    },
+    "scikit-learn": {
+        "base": "주요 라이브러리",
+        "child": []
+    },
+    "spacy(NLP)": {
+        "base": "주요 라이브러리",
+        "child": []
+    }
+}

@@ -1,0 +1,589 @@
+{
+    "Backend": {
+        "base": "Backend",
+        "child": [
+            "인터넷",
+            "기초 프론트엔드 지식",
+            "OS 및 일반 지식",
+            "언어",
+            "버전 제어 시스템(VSC)",
+            "관계 데이터베이스",
+            "데이터베이스 심화",
+            "NoSQL 데이터베이스",
+            "APIs",
+            "캐싱",
+            "웹 보안 지식",
+            "테스트",
+            "CI/CD",
+            "설계 및 개발 원리",
+            "아키텍처 패턴",
+            "메시지 브로커",
+            "컨테이너화 vs. 가상화",
+            "GraphQL",
+            "그래프 데이터베이스",
+            "웹 소켓",
+            "웹 서버",
+            "확장성"
+        ]
+    },
+    "인터넷": {
+        "base": "Backend",
+        "child": [
+            "인터넷의 작동원리",
+            "HTTP란?",
+            "브라우저와 그 작동원리",
+            "DNS와 그 작동원리",
+            "도메인 이름이란?",
+            "호스팅이란?"
+        ]
+    },
+    "인터넷의 작동원리": {
+        "base": "인터넷",
+        "child": []
+    },
+    "HTTP란?": {
+        "base": "인터넷",
+        "child": []
+    },
+    "브라우저와 그 작동원리": {
+        "base": "인터넷",
+        "child": []
+    },
+    "DNS와 그 작동원리": {
+        "base": "인터넷",
+        "child": []
+    },
+    "도메인 이름이란?": {
+        "base": "인터넷",
+        "child": []
+    },
+    "호스팅이란?": {
+        "base": "인터넷",
+        "child": []
+    },
+    "기초 프론트엔드 지식": {
+        "base": "Backend",
+        "child": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    "HTML": {
+        "base": "기초 프론트엔드 지식",
+        "child": []
+    },
+    "CSS": {
+        "base": "기초 프론트엔드 지식",
+        "child": []
+    },
+    "JavaScript": {
+        "base": "언어",
+        "child": []
+    },
+    "OS 및 일반 지식": {
+        "base": "Backend",
+        "child": [
+            "터미널 사용",
+            "OS의 일반적인 작동원리",
+            "프로세스 관리",
+            "쓰레드와 동시성",
+            "기본 터미널 명령어",
+            "메모리 관리",
+            "프로세스 간 통신",
+            "입출력 관리",
+            "POSIX 기초",
+            "기초 네트워킹 컨셉"
+        ]
+    },
+    "터미널 사용": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "OS의 일반적인 작동원리": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "프로세스 관리": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "쓰레드와 동시성": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "기본 터미널 명령어": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "메모리 관리": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "프로세스 간 통신": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "입출력 관리": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "POSIX 기초": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "기초 네트워킹 컨셉": {
+        "base": "OS 및 일반 지식",
+        "child": []
+    },
+    "언어": {
+        "base": "Backend",
+        "child": [
+            "Java",
+            "C#",
+            "PHP",
+            "JavaScript",
+            "Python",
+            "Ruby",
+            "Rust",
+            "Go"
+        ]
+    },
+    "Java": {
+        "base": "언어",
+        "child": []
+    },
+    "C#": {
+        "base": "언어",
+        "child": []
+    },
+    "PHP": {
+        "base": "언어",
+        "child": []
+    },
+    "Python": {
+        "base": "언어",
+        "child": []
+    },
+    "Ruby": {
+        "base": "언어",
+        "child": []
+    },
+    "Rust": {
+        "base": "언어",
+        "child": []
+    },
+    "Go": {
+        "base": "언어",
+        "child": []
+    },
+    "버전 제어 시스템(VSC)": {
+        "base": "Backend",
+        "child": [
+            "Git과 GitHub"
+        ]
+    },
+    "Git과 GitHub": {
+        "base": "버전 제어 시스템(VSC)",
+        "child": []
+    },
+    "관계 데이터베이스": {
+        "base": "Backend",
+        "child": [
+            "PostgreSQL",
+            "MySQL",
+            "MariaDB",
+            "MS SQL",
+            "Oracle"
+        ]
+    },
+    "PostgreSQL": {
+        "base": "관계 데이터베이스",
+        "child": []
+    },
+    "MySQL": {
+        "base": "관계 데이터베이스",
+        "child": []
+    },
+    "MariaDB": {
+        "base": "관계 데이터베이스",
+        "child": []
+    },
+    "MS SQL": {
+        "base": "관계 데이터베이스",
+        "child": []
+    },
+    "Oracle": {
+        "base": "관계 데이터베이스",
+        "child": []
+    },
+    "데이터베이스 심화": {
+        "base": "Backend",
+        "child": [
+            "ORMs",
+            "ACID",
+            "트랜잭션",
+            "N+1 문제",
+            "데이터베이스 정규화",
+            "인덱스와 그 작동원리",
+            "데이터 복제",
+            "CAP 정리"
+        ]
+    },
+    "ORMs": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "ACID": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "트랜잭션": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "N+1 문제": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "데이터베이스 정규화": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "인덱스와 그 작동원리": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "데이터 복제": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "CAP 정리": {
+        "base": "데이터베이스 심화",
+        "child": []
+    },
+    "NoSQL 데이터베이스": {
+        "base": "Backend",
+        "child": [
+            "MongoDB",
+            "DynamoDB",
+            "Cassandra",
+            "InfluxDB",
+            "Firebase"
+        ]
+    },
+    "MongoDB": {
+        "base": "NoSQL 데이터베이스",
+        "child": []
+    },
+    "DynamoDB": {
+        "base": "NoSQL 데이터베이스",
+        "child": []
+    },
+    "Cassandra": {
+        "base": "NoSQL 데이터베이스",
+        "child": []
+    },
+    "InfluxDB": {
+        "base": "NoSQL 데이터베이스",
+        "child": []
+    },
+    "Firebase": {
+        "base": "NoSQL 데이터베이스",
+        "child": []
+    },
+    "APIs": {
+        "base": "Backend",
+        "child": [
+            "HATEOAS",
+            "OpenAPI",
+            "인증",
+            "REST",
+            "JSON APIs",
+            "SOAP",
+            "gRPC"
+        ]
+    },
+    "HATEOAS": {
+        "base": "APIs",
+        "child": []
+    },
+    "OpenAPI": {
+        "base": "APIs",
+        "child": []
+    },
+    "인증": {
+        "base": "APIs",
+        "child": []
+    },
+    "REST": {
+        "base": "APIs",
+        "child": []
+    },
+    "JSON APIs": {
+        "base": "APIs",
+        "child": []
+    },
+    "SOAP": {
+        "base": "APIs",
+        "child": []
+    },
+    "gRPC": {
+        "base": "APIs",
+        "child": []
+    },
+    "캐싱": {
+        "base": "Backend",
+        "child": [
+            "CDN",
+            "서버 측면",
+            "클라이언트 측면"
+        ]
+    },
+    "CDN": {
+        "base": "캐싱",
+        "child": []
+    },
+    "서버 측면": {
+        "base": "캐싱",
+        "child": [
+            "Redis",
+            "Memcached"
+        ]
+    },
+    "Redis": {
+        "base": "서버 측면",
+        "child": []
+    },
+    "Memcached": {
+        "base": "서버 측면",
+        "child": []
+    },
+    "클라이언트 측면": {
+        "base": "캐싱",
+        "child": []
+    },
+    "웹 보안 지식": {
+        "base": "Backend",
+        "child": [
+            "HTTPS",
+            "콘텐츠 보안 정책",
+            "CORS",
+            "SSL/TLS",
+            "OWASP"
+        ]
+    },
+    "HTTPS": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "콘텐츠 보안 정책": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "CORS": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "SSL/TLS": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "OWASP": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "테스트": {
+        "base": "Backend",
+        "child": [
+            "통합 테스트",
+            "유닛 테스트",
+            "기능 테스트"
+        ]
+    },
+    "통합 테스트": {
+        "base": "테스트",
+        "child": []
+    },
+    "유닛 테스트": {
+        "base": "테스트",
+        "child": []
+    },
+    "기능 테스트": {
+        "base": "테스트",
+        "child": []
+    },
+    "CI/CD": {
+        "base": "Backend",
+        "child": []
+    },
+    "설계 및 개발 원리": {
+        "base": "Backend",
+        "child": [
+            "GOF 디자인 패턴",
+            "도메인 중심 설계(DDD)",
+            "테스트 중심 설계(TDD)",
+            "SOLID",
+            "KISS",
+            "YAGNI",
+            "DRY"
+        ]
+    },
+    "GOF 디자인 패턴": {
+        "base": "설계 및 개발 원리",
+        "child": []
+    },
+    "도메인 중심 설계(DDD)": {
+        "base": "설계 및 개발 원리",
+        "child": []
+    },
+    "테스트 중심 설계(TDD)": {
+        "base": "설계 및 개발 원리",
+        "child": []
+    },
+    "SOLID": {
+        "base": "설계 및 개발 원리",
+        "child": []
+    },
+    "KISS": {
+        "base": "설계 및 개발 원리",
+        "child": []
+    },
+    "YAGNI": {
+        "base": "설계 및 개발 원리",
+        "child": []
+    },
+    "DRY": {
+        "base": "설계 및 개발 원리",
+        "child": []
+    },
+    "아키텍처 패턴": {
+        "base": "Backend",
+        "child": [
+            "Monolithic Apps",
+            "Microservices",
+            "SOA",
+            "cQRS와 이벤트 소싱",
+            "Serverless"
+        ]
+    },
+    "Monolithic Apps": {
+        "base": "아키텍처 패턴",
+        "child": []
+    },
+    "Microservices": {
+        "base": "아키텍처 패턴",
+        "child": []
+    },
+    "SOA": {
+        "base": "아키텍처 패턴",
+        "child": []
+    },
+    "cQRS와 이벤트 소싱": {
+        "base": "아키텍처 패턴",
+        "child": []
+    },
+    "Serverless": {
+        "base": "아키텍처 패턴",
+        "child": []
+    },
+    "메시지 브로커": {
+        "base": "Backend",
+        "child": [
+            "RabbitMQ",
+            "Kafka"
+        ]
+    },
+    "RabbitMQ": {
+        "base": "메시지 브로커",
+        "child": []
+    },
+    "Kafka": {
+        "base": "메시지 브로커",
+        "child": []
+    },
+    "컨테이너화 vs. 가상화": {
+        "base": "Backend",
+        "child": [
+            "Docker"
+        ]
+    },
+    "Docker": {
+        "base": "컨테이너화 vs. 가상화",
+        "child": []
+    },
+    "GraphQL": {
+        "base": "Backend",
+        "child": [
+            "Apollo",
+            "Relay Modern"
+        ]
+    },
+    "Apollo": {
+        "base": "GraphQL",
+        "child": []
+    },
+    "Relay Modern": {
+        "base": "GraphQL",
+        "child": []
+    },
+    "그래프 데이터베이스": {
+        "base": "Backend",
+        "child": [
+            "Neo4j"
+        ]
+    },
+    "Neo4j": {
+        "base": "그래프 데이터베이스",
+        "child": []
+    },
+    "웹 소켓": {
+        "base": "Backend",
+        "child": []
+    },
+    "웹 서버": {
+        "base": "Backend",
+        "child": [
+            "Nginx",
+            "Apache",
+            "Caddy",
+            "MS IIS"
+        ]
+    },
+    "Nginx": {
+        "base": "웹 서버",
+        "child": []
+    },
+    "Apache": {
+        "base": "웹 서버",
+        "child": []
+    },
+    "Caddy": {
+        "base": "웹 서버",
+        "child": []
+    },
+    "MS IIS": {
+        "base": "웹 서버",
+        "child": []
+    },
+    "확장성": {
+        "base": "Backend",
+        "child": [
+            "리스크 완화 전략",
+            "계측 모니터링 원격 측정",
+            "수평/수직 스케일링"
+        ]
+    },
+    "리스크 완화 전략": {
+        "base": "확장성",
+        "child": []
+    },
+    "계측 모니터링 원격 측정": {
+        "base": "확장성",
+        "child": []
+    },
+    "수평/수직 스케일링": {
+        "base": "확장성",
+        "child": []
+    }
+}

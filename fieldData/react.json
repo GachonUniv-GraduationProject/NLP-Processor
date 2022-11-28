@@ -1,0 +1,314 @@
+{
+    "기본": {
+        "base": "React",
+        "child": [
+            "리액트 앱 생성하기",
+            "JSX",
+            "component",
+            "props vs state",
+            "conditional rendering",
+            "component life cycle",
+            "lists and keys",
+            "composition vs inheritance",
+            "basic hooks"
+        ]
+    },
+    "리액트 앱 생성하기": {
+        "base": "기본",
+        "child": []
+    },
+    "JSX": {
+        "base": "기본",
+        "child": []
+    },
+    "component": {
+        "base": "기본",
+        "child": [
+            "functional component",
+            "class component"
+        ]
+    },
+    "functional component": {
+        "base": "component",
+        "child": []
+    },
+    "class component": {
+        "base": "component",
+        "child": []
+    },
+    "props vs state": {
+        "base": "기본",
+        "child": []
+    },
+    "conditional rendering": {
+        "base": "기본",
+        "child": []
+    },
+    "component life cycle": {
+        "base": "기본",
+        "child": []
+    },
+    "lists and keys": {
+        "base": "기본",
+        "child": []
+    },
+    "composition vs inheritance": {
+        "base": "기본",
+        "child": []
+    },
+    "basic hooks": {
+        "base": "기본",
+        "child": [
+            "usestate",
+            "useeffect"
+        ]
+    },
+    "usestate": {
+        "base": "basic hooks",
+        "child": []
+    },
+    "useeffect": {
+        "base": "basic hooks",
+        "child": []
+    },
+    "고급": {
+        "base": "React",
+        "child": [
+            "hooks",
+            "context",
+            "refs",
+            "render props",
+            "high order components",
+            "portals",
+            "error boundaries",
+            "fiber architecture"
+        ]
+    },
+    "hooks": {
+        "base": "고급",
+        "child": [
+            "writing your own hooks",
+            "common hooks"
+        ]
+    },
+    "writing your own hooks": {
+        "base": "hooks",
+        "child": []
+    },
+    "common hooks": {
+        "base": "hooks",
+        "child": []
+    },
+    "context": {
+        "base": "고급",
+        "child": []
+    },
+    "refs": {
+        "base": "고급",
+        "child": []
+    },
+    "render props": {
+        "base": "고급",
+        "child": []
+    },
+    "high order components": {
+        "base": "고급",
+        "child": []
+    },
+    "portals": {
+        "base": "고급",
+        "child": []
+    },
+    "error boundaries": {
+        "base": "고급",
+        "child": []
+    },
+    "fiber architecture": {
+        "base": "고급",
+        "child": []
+    },
+    "ecosystem": {
+        "base": "React",
+        "child": [
+            "routers",
+            "ssr",
+            "ssg",
+            "api-calls",
+            "mobile",
+            "forms",
+            "testing",
+            "state management",
+            "styling"
+        ]
+    },
+    "routers": {
+        "base": "ecosystem",
+        "child": [
+            "react routers",
+            "reach routers"
+        ]
+    },
+    "react routers": {
+        "base": "routers",
+        "child": []
+    },
+    "reach routers": {
+        "base": "routers",
+        "child": []
+    },
+    "ssr": {
+        "base": "ecosystem",
+        "child": [
+            "Next.js"
+        ]
+    },
+    "ssg": {
+        "base": "ecosystem",
+        "child": [
+            "Gatsby"
+        ]
+    },
+    "Next.js": {
+        "base": "ssr",
+        "child": []
+    },
+    "Gatsby": {
+        "base": "ssg",
+        "child": []
+    },
+    "api-calls": {
+        "base": "ecosystem",
+        "child": [
+            "react query",
+            "apollo",
+            "GraphQL",
+            "Axios",
+            "unfetch",
+            "superagent",
+            "use-http"
+        ]
+    },
+    "react query": {
+        "base": "api-calls",
+        "child": []
+    },
+    "apollo": {
+        "base": "api-calls",
+        "child": []
+    },
+    "GraphQL": {
+        "base": "api-calls",
+        "child": []
+    },
+    "Axios": {
+        "base": "api-calls",
+        "child": []
+    },
+    "unfetch": {
+        "base": "api-calls",
+        "child": []
+    },
+    "superagent": {
+        "base": "api-calls",
+        "child": []
+    },
+    "use-http": {
+        "base": "api-calls",
+        "child": []
+    },
+    "mobile": {
+        "base": "ecosystem",
+        "child": [
+            "react native"
+        ]
+    },
+    "react native": {
+        "base": "mobile",
+        "child": []
+    },
+    "forms": {
+        "base": "ecosystem",
+        "child": [
+            "react hook forms",
+            "formik",
+            "final form"
+        ]
+    },
+    "react hook forms": {
+        "base": "forms",
+        "child": []
+    },
+    "formik": {
+        "base": "forms",
+        "child": []
+    },
+    "final form": {
+        "base": "forms",
+        "child": []
+    },
+    "testing": {
+        "base": "ecosystem",
+        "child": [
+            "Jest",
+            "react testing library",
+            "cypress"
+        ]
+    },
+    "Jest": {
+        "base": "testing",
+        "child": []
+    },
+    "react testing library": {
+        "base": "testing",
+        "child": []
+    },
+    "cypress": {
+        "base": "testing",
+        "child": []
+    },
+    "state management": {
+        "base": "ecosystem",
+        "child": [
+            "context/state",
+            "redux"
+        ]
+    },
+    "context/state": {
+        "base": "state management",
+        "child": []
+    },
+    "redux": {
+        "base": "state management",
+        "child": []
+    },
+    "styling": {
+        "base": "ecosystem",
+        "child": [
+            "styled components",
+            "emotion",
+            "ant design",
+            "matreial ui",
+            "chakra ui"
+        ]
+    },
+    "styled components": {
+        "base": "styling",
+        "child": []
+    },
+    "emotion": {
+        "base": "styling",
+        "child": []
+    },
+    "ant design": {
+        "base": "styling",
+        "child": []
+    },
+    "matreial ui": {
+        "base": "styling",
+        "child": []
+    },
+    "chakra ui": {
+        "base": "styling",
+        "child": []
+    }
+}

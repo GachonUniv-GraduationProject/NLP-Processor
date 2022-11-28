@@ -1,0 +1,560 @@
+{
+    "Frontend": {
+        "base": "Frontend",
+        "child": [
+            "인터넷",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "버전 제어 시스템(VSC)",
+            "웹 보안 지식",
+            "패키지 매니저",
+            "CSS 구조와 전처리",
+            "빌드 도구",
+            "프레임워크 선택",
+            "모던 CSS",
+            "웹 구성요소",
+            "CSS 프레임워크",
+            "앱 테스트",
+            "PWA(Progressive Web Apps)",
+            "Server-side Rendering",
+            "GraphQL",
+            "정적 사이트 생성기(Static site generators)",
+            "모바일 애플리케이션",
+            "데스크탑 애플리케이션",
+            "Web Assembly"
+        ]
+    },
+    "인터넷": {
+        "base": "Frontend",
+        "child": [
+            "인터넷의 작동원리",
+            "HTTP란?",
+            "브라우저와 그 작동원리",
+            "DNS와 그 작동원리",
+            "도메인 이름이란?",
+            "호스팅이란?"
+        ]
+    },
+    "인터넷의 작동원리": {
+        "base": "인터넷",
+        "child": []
+    },
+    "HTTP란?": {
+        "base": "인터넷",
+        "child": []
+    },
+    "브라우저와 그 작동원리": {
+        "base": "인터넷",
+        "child": []
+    },
+    "DNS와 그 작동원리": {
+        "base": "인터넷",
+        "child": []
+    },
+    "도메인 이름이란?": {
+        "base": "인터넷",
+        "child": []
+    },
+    "호스팅이란?": {
+        "base": "인터넷",
+        "child": []
+    },
+    "HTML": {
+        "base": "Frontend",
+        "child": [
+            "HTML 기초",
+            "Semantic(시맨틱) HTML",
+            "형식과 검증",
+            "규약 및 모범사례",
+            "접근성",
+            "SEO 기초"
+        ]
+    },
+    "HTML 기초": {
+        "base": "HTML",
+        "child": []
+    },
+    "Semantic(시맨틱) HTML": {
+        "base": "HTML",
+        "child": []
+    },
+    "형식과 검증": {
+        "base": "HTML",
+        "child": []
+    },
+    "규약 및 모범사례": {
+        "base": "HTML",
+        "child": []
+    },
+    "접근성": {
+        "base": "HTML",
+        "child": []
+    },
+    "SEO 기초": {
+        "base": "HTML",
+        "child": []
+    },
+    "CSS": {
+        "base": "Frontend",
+        "child": [
+            "CSS 기초",
+            "레이아웃 만들기",
+            "대응형 웹 설계 및 미디어 쿼리"
+        ]
+    },
+    "CSS 기초": {
+        "base": "CSS",
+        "child": []
+    },
+    "레이아웃 만들기": {
+        "base": "CSS",
+        "child": []
+    },
+    "대응형 웹 설계 및 미디어 쿼리": {
+        "base": "CSS",
+        "child": []
+    },
+    "JavaScript": {
+        "base": "Frontend",
+        "child": [
+            "문법과 기본 구조",
+            "DOM 조작",
+            "Fetch API / Ajax (XHR)",
+            "JavaScript 컨셉 이해",
+            "ES6+와 modular JavaScript"
+        ]
+    },
+    "문법과 기본 구조": {
+        "base": "JavaScript",
+        "child": []
+    },
+    "DOM 조작": {
+        "base": "JavaScript",
+        "child": []
+    },
+    "Fetch API / Ajax (XHR)": {
+        "base": "JavaScript",
+        "child": []
+    },
+    "JavaScript 컨셉 이해": {
+        "base": "JavaScript",
+        "child": []
+    },
+    "ES6+와 modular JavaScript": {
+        "base": "JavaScript",
+        "child": []
+    },
+    "버전 제어 시스템(VSC)": {
+        "base": "Frontend",
+        "child": [
+            "Git과 GitHub"
+        ]
+    },
+    "Git과 GitHub": {
+        "base": "버전 제어 시스템(VSC)",
+        "child": []
+    },
+    "웹 보안 지식": {
+        "base": "Frontend",
+        "child": [
+            "HTTPS",
+            "콘텐츠 보안 정책",
+            "CORS",
+            "OWASP"
+        ]
+    },
+    "HTTPS": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "콘텐츠 보안 정책": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "CORS": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "OWASP": {
+        "base": "웹 보안 지식",
+        "child": []
+    },
+    "패키지 매니저": {
+        "base": "Frontend",
+        "child": [
+            "NPM",
+            "YARN"
+        ]
+    },
+    "NPM": {
+        "base": "패키지 매니저",
+        "child": []
+    },
+    "YARN": {
+        "base": "패키지 매니저",
+        "child": []
+    },
+    "CSS 구조와 전처리": {
+        "base": "Frontend",
+        "child": [
+            "CSS구조 - BEM",
+            "CSS전처리 - Sass",
+            "CSS전처리 - PostCSS"
+        ]
+    },
+    "CSS구조 - BEM": {
+        "base": "CSS 구조와 전처리",
+        "child": []
+    },
+    "CSS전처리 - Sass": {
+        "base": "CSS 구조와 전처리",
+        "child": []
+    },
+    "CSS전처리 - PostCSS": {
+        "base": "CSS 구조와 전처리",
+        "child": []
+    },
+    "빌드 도구": {
+        "base": "Frontend",
+        "child": [
+            "작업 실행",
+            "모듈 번들러",
+            "Linters와 Formatters"
+        ]
+    },
+    "작업 실행": {
+        "base": "빌드 도구",
+        "child": [
+            "NPM scripts"
+        ]
+    },
+    "NPM scripts": {
+        "base": "작업 실행",
+        "child": []
+    },
+    "모듈 번들러": {
+        "base": "빌드 도구",
+        "child": [
+            "Webpack",
+            "esbuild",
+            "Rollup",
+            "Parcel",
+            "Vite"
+        ]
+    },
+    "Webpack": {
+        "base": "모듈 번들러",
+        "child": []
+    },
+    "esbuild": {
+        "base": "모듈 번들러",
+        "child": []
+    },
+    "Rollup": {
+        "base": "모듈 번들러",
+        "child": []
+    },
+    "Parcel": {
+        "base": "모듈 번들러",
+        "child": []
+    },
+    "Vite": {
+        "base": "모듈 번들러",
+        "child": []
+    },
+    "Linters와 Formatters": {
+        "base": "빌드 도구",
+        "child": [
+            "Prettier",
+            "EsLint"
+        ]
+    },
+    "Prettier": {
+        "base": "Linters와 Formatters",
+        "child": []
+    },
+    "EsLint": {
+        "base": "Linters와 Formatters",
+        "child": []
+    },
+    "프레임워크 선택": {
+        "base": "Frontend",
+        "child": [
+            "React",
+            "Angular",
+            "Vue.js"
+        ]
+    },
+    "React": {
+        "base": "Server-side Rendering",
+        "child": [
+            "Next.js"
+        ]
+    },
+    "Redux": {
+        "base": "React",
+        "child": []
+    },
+    "MobX": {
+        "base": "React",
+        "child": []
+    },
+    "Recoil": {
+        "base": "React",
+        "child": []
+    },
+    "Angular": {
+        "base": "Server-side Rendering",
+        "child": [
+            "Universal"
+        ]
+    },
+    "RxJS": {
+        "base": "Angular",
+        "child": []
+    },
+    "NgRx": {
+        "base": "Angular",
+        "child": []
+    },
+    "Vue.js": {
+        "base": "Server-side Rendering",
+        "child": [
+            "Nuxt.js"
+        ]
+    },
+    "Pinia": {
+        "base": "Vue.js",
+        "child": []
+    },
+    "모던 CSS": {
+        "base": "Frontend",
+        "child": [
+            "Styled Components",
+            "CSS 모듈",
+            "Styled JSX",
+            "Emotion"
+        ]
+    },
+    "Styled Components": {
+        "base": "모던 CSS",
+        "child": []
+    },
+    "CSS 모듈": {
+        "base": "모던 CSS",
+        "child": []
+    },
+    "Styled JSX": {
+        "base": "모던 CSS",
+        "child": []
+    },
+    "Emotion": {
+        "base": "모던 CSS",
+        "child": []
+    },
+    "웹 구성요소": {
+        "base": "Frontend",
+        "child": [
+            "HTML 템플릿",
+            "사용자 정의 요소",
+            "Shadow DOM"
+        ]
+    },
+    "HTML 템플릿": {
+        "base": "웹 구성요소",
+        "child": []
+    },
+    "사용자 정의 요소": {
+        "base": "웹 구성요소",
+        "child": []
+    },
+    "Shadow DOM": {
+        "base": "웹 구성요소",
+        "child": []
+    },
+    "CSS 프레임워크": {
+        "base": "Frontend",
+        "child": [
+            "Bootstrap",
+            "Bulma",
+            "Tailwind CSS",
+            "Chakra UI",
+            "Material UI",
+            "Radix UI"
+        ]
+    },
+    "Bootstrap": {
+        "base": "CSS 프레임워크",
+        "child": []
+    },
+    "Bulma": {
+        "base": "CSS 프레임워크",
+        "child": []
+    },
+    "Tailwind CSS": {
+        "base": "CSS 프레임워크",
+        "child": []
+    },
+    "Chakra UI": {
+        "base": "CSS 프레임워크",
+        "child": []
+    },
+    "Material UI": {
+        "base": "CSS 프레임워크",
+        "child": []
+    },
+    "Radix UI": {
+        "base": "CSS 프레임워크",
+        "child": []
+    },
+    "앱 테스트": {
+        "base": "Frontend",
+        "child": [
+            "Jest",
+            "React Testing Library",
+            "Cypress",
+            "Enzyme"
+        ]
+    },
+    "Jest": {
+        "base": "앱 테스트",
+        "child": []
+    },
+    "React Testing Library": {
+        "base": "앱 테스트",
+        "child": []
+    },
+    "Cypress": {
+        "base": "앱 테스트",
+        "child": []
+    },
+    "Enzyme": {
+        "base": "앱 테스트",
+        "child": []
+    },
+    "PWA(Progressive Web Apps)": {
+        "base": "Frontend",
+        "child": []
+    },
+    "Server-side Rendering": {
+        "base": "Frontend",
+        "child": [
+            "React",
+            "Angular",
+            "Vue.js"
+        ]
+    },
+    "Next.js": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "Universal": {
+        "base": "Angular",
+        "child": []
+    },
+    "Nuxt.js": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "GraphQL": {
+        "base": "Frontend",
+        "child": [
+            "Apollo",
+            "Relay Modern"
+        ]
+    },
+    "Apollo": {
+        "base": "GraphQL",
+        "child": []
+    },
+    "Relay Modern": {
+        "base": "GraphQL",
+        "child": []
+    },
+    "정적 사이트 생성기(Static site generators)": {
+        "base": "Frontend",
+        "child": [
+            "Next.js",
+            "GatsbyJS",
+            "Nuxt.js",
+            "Vuepress",
+            "Jekyll",
+            "Hugo",
+            "Gridsome",
+            "Eleventy"
+        ]
+    },
+    "GatsbyJS": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "Vuepress": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "Jekyll": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "Hugo": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "Gridsome": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "Eleventy": {
+        "base": "정적 사이트 생성기(Static site generators)",
+        "child": []
+    },
+    "모바일 애플리케이션": {
+        "base": "Frontend",
+        "child": []
+    },
+    "모바일 어플리케이션": {
+        "base": "Frontend",
+        "child": [
+            "React Native",
+            "NativeScript",
+            "Flutter",
+            "Ionic"
+        ]
+    },
+    "React Native": {
+        "base": "모바일 어플리케이션",
+        "child": []
+    },
+    "NativeScript": {
+        "base": "모바일 어플리케이션",
+        "child": []
+    },
+    "Flutter": {
+        "base": "모바일 어플리케이션",
+        "child": []
+    },
+    "Ionic": {
+        "base": "모바일 어플리케이션",
+        "child": []
+    },
+    "데스크탑 애플리케이션": {
+        "base": "Frontend",
+        "child": [
+            "Electron",
+            "Tauri"
+        ]
+    },
+    "Electron": {
+        "base": "데스크탑 애플리케이션",
+        "child": []
+    },
+    "Tauri": {
+        "base": "데스크탑 애플리케이션",
+        "child": []
+    },
+    "Web Assembly": {
+        "base": "Frontend",
+        "child": []
+    }
+}

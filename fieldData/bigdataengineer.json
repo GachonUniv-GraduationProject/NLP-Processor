@@ -1,0 +1,204 @@
+{
+    "BigData Engineer": {
+        "base": "BigData Engineer",
+        "child": [
+            "빅데이터 아키텍처",
+            "원리",
+            "도구"
+        ]
+    },
+    "빅데이터 아키텍처": {
+        "base": "BigData Engineer",
+        "child": [
+            "Architectural Patterns & Best Practices"
+        ]
+    },
+    "Architectural Patterns & Best Practices": {
+        "base": "빅데이터 아키텍처",
+        "child": []
+    },
+    "원리": {
+        "base": "BigData Engineer",
+        "child": [
+            "Horizontal vs vertical scaling",
+            "Map Reduce",
+            "Data Replication",
+            "Name & Data Nodes",
+            "Job & Task Tracker"
+        ]
+    },
+    "Horizontal vs vertical scaling": {
+        "base": "원리",
+        "child": []
+    },
+    "Map Reduce": {
+        "base": "원리",
+        "child": []
+    },
+    "Data Replication": {
+        "base": "원리",
+        "child": []
+    },
+    "Name & Data Nodes": {
+        "base": "원리",
+        "child": []
+    },
+    "Job & Task Tracker": {
+        "base": "원리",
+        "child": []
+    },
+    "도구": {
+        "base": "BigData Engineer",
+        "child": [
+            "Check the Awesome Big Data List",
+            "Hadoop",
+            "Spark",
+            "RAPIDS",
+            "Flume, Scribe(For Unstruct Data)",
+            "Data Warehouse with Hive",
+            "Elastic Stack",
+            "Avro",
+            "Flink",
+            "Dask",
+            "Numba",
+            "Onnx",
+            "OpenVino",
+            "MLFlow",
+            "Kafka & KSQL",
+            "Databases",
+            "Scalability",
+            "Cloud Services",
+            "AweSome Production ML"
+        ]
+    },
+    "Check the Awesome Big Data List": {
+        "base": "도구",
+        "child": []
+    },
+    "Hadoop": {
+        "base": "도구",
+        "child": [
+            "HDFS",
+            "Loading data with Sqoop and Pig",
+            "Storm : Hadoop Realtime"
+        ]
+    },
+    "HDFS": {
+        "base": "Hadoop",
+        "child": []
+    },
+    "Loading data with Sqoop and Pig": {
+        "base": "Hadoop",
+        "child": []
+    },
+    "Storm : Hadoop Realtime": {
+        "base": "Hadoop",
+        "child": []
+    },
+    "Spark": {
+        "base": "도구",
+        "child": []
+    },
+    "RAPIDS": {
+        "base": "도구",
+        "child": []
+    },
+    "Flume, Scribe(For Unstruct Data)": {
+        "base": "도구",
+        "child": []
+    },
+    "Data Warehouse with Hive": {
+        "base": "도구",
+        "child": []
+    },
+    "Elastic Stack": {
+        "base": "도구",
+        "child": []
+    },
+    "Avro": {
+        "base": "도구",
+        "child": []
+    },
+    "Flink": {
+        "base": "도구",
+        "child": []
+    },
+    "Dask": {
+        "base": "도구",
+        "child": []
+    },
+    "Numba": {
+        "base": "도구",
+        "child": []
+    },
+    "Onnx": {
+        "base": "도구",
+        "child": []
+    },
+    "OpenVino": {
+        "base": "도구",
+        "child": []
+    },
+    "MLFlow": {
+        "base": "도구",
+        "child": []
+    },
+    "Kafka & KSQL": {
+        "base": "도구",
+        "child": []
+    },
+    "Databases": {
+        "base": "도구",
+        "child": [
+            "Cassandra",
+            "MongoDB, Neo4j"
+        ]
+    },
+    "Cassandra": {
+        "base": "Databases",
+        "child": []
+    },
+    "MongoDB, Neo4j": {
+        "base": "Databases",
+        "child": []
+    },
+    "Scalability": {
+        "base": "도구",
+        "child": [
+            "ZooKeeper",
+            "Kubernetes"
+        ]
+    },
+    "ZooKeeper": {
+        "base": "Scalability",
+        "child": []
+    },
+    "Kubernetes": {
+        "base": "Scalability",
+        "child": []
+    },
+    "Cloud Services": {
+        "base": "도구",
+        "child": [
+            "AWS SageMaker",
+            "Google ML Engine",
+            "Microsoft Azure Machine Learning Studio"
+        ]
+    },
+    "AWS SageMaker": {
+        "base": "Cloud Services",
+        "child": []
+    },
+    "Google ML Engine": {
+        "base": "Cloud Services",
+        "child": []
+    },
+    "Microsoft Azure Machine Learning Studio": {
+        "base": "Cloud Services",
+        "child": []
+    },
+    "AweSome Production ML": {
+        "base": "도구",
+        "child": []
+    }
+}

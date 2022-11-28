@@ -1,0 +1,227 @@
+{
+    "기본기": {
+        "base": "Java",
+        "child": [
+            "기본 문법",
+            "데이터 타입, 변수",
+            "조건문",
+            "함수",
+            "반복문",
+            "예외 처리",
+            "자료구조",
+            "OOP, 인터페이스, 클래스",
+            "패키지",
+            "api, file"
+        ]
+    },
+    "기본 문법": {
+        "base": "기본기",
+        "child": []
+    },
+    "데이터 타입, 변수": {
+        "base": "기본기",
+        "child": []
+    },
+    "조건문": {
+        "base": "기본기",
+        "child": []
+    },
+    "함수": {
+        "base": "기본기",
+        "child": []
+    },
+    "반복문": {
+        "base": "기본기",
+        "child": []
+    },
+    "예외 처리": {
+        "base": "기본기",
+        "child": []
+    },
+    "자료구조": {
+        "base": "기본기",
+        "child": []
+    },
+    "OOP, 인터페이스, 클래스": {
+        "base": "기본기",
+        "child": []
+    },
+    "패키지": {
+        "base": "기본기",
+        "child": []
+    },
+    "api, file": {
+        "base": "기본기",
+        "child": []
+    },
+    "중급": {
+        "base": "Java",
+        "child": [
+            "메모리 관리",
+            "컬렉션 프레임워크",
+            "serialization",
+            "network, socket",
+            "제네릭",
+            "stream",
+            "jvm 작동방식",
+            "garbage collection",
+            "스레드 기본"
+        ]
+    },
+    "메모리 관리": {
+        "base": "중급",
+        "child": []
+    },
+    "컬렉션 프레임워크": {
+        "base": "중급",
+        "child": []
+    },
+    "serialization": {
+        "base": "중급",
+        "child": []
+    },
+    "network, socket": {
+        "base": "중급",
+        "child": []
+    },
+    "제네릭": {
+        "base": "중급",
+        "child": []
+    },
+    "stream": {
+        "base": "중급",
+        "child": []
+    },
+    "jvm 작동방식": {
+        "base": "중급",
+        "child": []
+    },
+    "garbage collection": {
+        "base": "중급",
+        "child": []
+    },
+    "스레드 기본": {
+        "base": "중급",
+        "child": []
+    },
+    "빌드 도구": {
+        "base": "Java",
+        "child": [
+            "gradle",
+            "maven",
+            "ant"
+        ]
+    },
+    "gradle": {
+        "base": "빌드 도구",
+        "child": []
+    },
+    "maven": {
+        "base": "빌드 도구",
+        "child": []
+    },
+    "ant": {
+        "base": "빌드 도구",
+        "child": []
+    },
+    "웹 프레임워크": {
+        "base": "Java",
+        "child": [
+            "스프링",
+            "스프링 부트",
+            "play framework",
+            "spark"
+        ]
+    },
+    "스프링": {
+        "base": "웹 프레임워크",
+        "child": []
+    },
+    "스프링 부트": {
+        "base": "웹 프레임워크",
+        "child": []
+    },
+    "play framework": {
+        "base": "웹 프레임워크",
+        "child": []
+    },
+    "spark": {
+        "base": "웹 프레임워크",
+        "child": []
+    },
+    "ORM": {
+        "base": "Java",
+        "child": [
+            "JPA",
+            "Spring data jpa",
+            "Hibernate",
+            "Ebean"
+        ]
+    },
+    "JPA": {
+        "base": "ORM",
+        "child": []
+    },
+    "Spring data jpa": {
+        "base": "ORM",
+        "child": []
+    },
+    "Hibernate": {
+        "base": "ORM",
+        "child": []
+    },
+    "Ebean": {
+        "base": "ORM",
+        "child": []
+    },
+    "JDBC": {
+        "base": "Java",
+        "child": [
+            "JDBI3",
+            "JDBC template"
+        ]
+    },
+    "JDBI3": {
+        "base": "JDBC",
+        "child": []
+    },
+    "JDBC template": {
+        "base": "JDBC",
+        "child": []
+    },
+    "logging framework": {
+        "base": "Java",
+        "child": [
+            "SLF4J",
+            "Logback"
+        ]
+    },
+    "SLF4J": {
+        "base": "logging framework",
+        "child": []
+    },
+    "Logback": {
+        "base": "logging framework",
+        "child": []
+    },
+    "testing": {
+        "base": "Java",
+        "child": [
+            "mockito",
+            "Junit",
+            "Jmeter"
+        ]
+    },
+    "mockito": {
+        "base": "testing",
+        "child": []
+    },
+    "Junit": {
+        "base": "testing",
+        "child": []
+    },
+    "Jmeter": {
+        "base": "testing",
+        "child": []
+    }
+}

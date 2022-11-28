@@ -1,0 +1,246 @@
+{
+    "기본기": {
+        "base": "Python",
+        "child": [
+            "기본 문법",
+            "변수, 자료형",
+            "조건문",
+            "type casting, 예외",
+            "함수",
+            "리스트, 튜플, 집합, 딕셔너리"
+        ]
+    },
+    "기본 문법": {
+        "base": "기본기",
+        "child": []
+    },
+    "변수, 자료형": {
+        "base": "기본기",
+        "child": []
+    },
+    "조건문": {
+        "base": "기본기",
+        "child": []
+    },
+    "type casting, 예외": {
+        "base": "기본기",
+        "child": []
+    },
+    "함수": {
+        "base": "기본기",
+        "child": []
+    },
+    "리스트, 튜플, 집합, 딕셔너리": {
+        "base": "기본기",
+        "child": []
+    },
+    "자료구조와 알고리즘": {
+        "base": "Python",
+        "child": [
+            "array, linked list",
+            "heap, stack, queue",
+            "hash table",
+            "bst",
+            "recursion",
+            "sorting"
+        ]
+    },
+    "array, linked list": {
+        "base": "자료구조와 알고리즘",
+        "child": []
+    },
+    "heap, stack, queue": {
+        "base": "자료구조와 알고리즘",
+        "child": []
+    },
+    "hash table": {
+        "base": "자료구조와 알고리즘",
+        "child": []
+    },
+    "bst": {
+        "base": "자료구조와 알고리즘",
+        "child": []
+    },
+    "recursion": {
+        "base": "자료구조와 알고리즘",
+        "child": []
+    },
+    "sorting": {
+        "base": "자료구조와 알고리즘",
+        "child": []
+    },
+    "고급": {
+        "base": "Python",
+        "child": [
+            "lambda",
+            "decorator",
+            "regular expression",
+            "oop",
+            "classes",
+            "modules",
+            "iterators"
+        ]
+    },
+    "lambda": {
+        "base": "고급",
+        "child": []
+    },
+    "decorator": {
+        "base": "고급",
+        "child": []
+    },
+    "regular expression": {
+        "base": "고급",
+        "child": []
+    },
+    "oop": {
+        "base": "고급",
+        "child": [
+            "method",
+            "inheritance"
+        ]
+    },
+    "method": {
+        "base": "oop",
+        "child": []
+    },
+    "inheritance": {
+        "base": "oop",
+        "child": []
+    },
+    "classes": {
+        "base": "고급",
+        "child": []
+    },
+    "modules": {
+        "base": "고급",
+        "child": [
+            "builitin",
+            "custom"
+        ]
+    },
+    "iterators": {
+        "base": "고급",
+        "child": []
+    },
+    "builitin": {
+        "base": "modules",
+        "child": []
+    },
+    "custom": {
+        "base": "modules",
+        "child": []
+    },
+    "VCS": {
+        "base": "Python",
+        "child": [
+            "git 기본"
+        ]
+    },
+    "git 기본": {
+        "base": "VCS",
+        "child": []
+    },
+    "repo hosting services": {
+        "base": "Python",
+        "child": [
+            "git hub",
+            "git lab",
+            "bit bucket"
+        ]
+    },
+    "git hub": {
+        "base": "repo hosting services",
+        "child": []
+    },
+    "git lab": {
+        "base": "repo hosting services",
+        "child": []
+    },
+    "bit bucket": {
+        "base": "repo hosting services",
+        "child": []
+    },
+    "package manager": {
+        "base": "Python",
+        "child": [
+            "pypi",
+            "pip"
+        ]
+    },
+    "pypi": {
+        "base": "package manager",
+        "child": []
+    },
+    "pip": {
+        "base": "package manager",
+        "child": []
+    },
+    "framework": {
+        "base": "Python",
+        "child": [
+            "synchronous",
+            "asynchronous"
+        ]
+    },
+    "synchronous": {
+        "base": "framework",
+        "child": [
+            "django",
+            "flask",
+            "pyramid"
+        ]
+    },
+    "asynchronous": {
+        "base": "framework",
+        "child": [
+            "gevent",
+            "aiohttp",
+            "tornado",
+            "sanic"
+        ]
+    },
+    "django": {
+        "base": "synchronous",
+        "child": []
+    },
+    "flask": {
+        "base": "synchronous",
+        "child": []
+    },
+    "pyramid": {
+        "base": "synchronous",
+        "child": []
+    },
+    "gevent": {
+        "base": "asynchronous",
+        "child": []
+    },
+    "aiohttp": {
+        "base": "asynchronous",
+        "child": []
+    },
+    "tornado": {
+        "base": "asynchronous",
+        "child": []
+    },
+    "sanic": {
+        "base": "asynchronous",
+        "child": []
+    },
+    "testing": {
+        "base": "Python",
+        "child": [
+            "pytest",
+            "unittest"
+        ]
+    },
+    "pytest": {
+        "base": "testing",
+        "child": []
+    },
+    "unittest": {
+        "base": "testing",
+        "child": []
+    }
+}
