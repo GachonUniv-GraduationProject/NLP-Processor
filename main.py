@@ -1,7 +1,7 @@
 import json
 import socket
 from _thread import *
-from nlp_process import classify_pos_neg_sentences, classify_fields
+from nlp_process import classify_pos_neg_sentences, classify_fields, load_jsons
 
 
 def threaded(client_socket, addr):
@@ -49,6 +49,8 @@ processor_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 processor_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 processor_socket.bind((HOST, PORT))
 processor_socket.listen()
+
+load_jsons()
 
 try:
     while True:
