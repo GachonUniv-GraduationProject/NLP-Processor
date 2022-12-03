@@ -38,23 +38,19 @@ def define_pos_neg(input_split):
     negEx = ['없', '못', '싫', '않', '도저히', '아니']
     result = []
 
-    okt = Okt()
-
     for i in input_split:
         direction = 1
         count = 0
-        morph_list = okt.morphs(i)
-        for m in morph_list:
-            for p in posEx:
-                if m.find(p) != -1:
-                    count = count + 1
-                    direction = 1
-                    break
-            for n in negEx:
-                if m.find(n) != -1:
-                    count = count - 1 * direction
-                    direction = direction * -1
-                    break
+        for p in posEx:
+            if i.find(p) != -1:
+                count = count + 1
+                direction = 1
+                break
+        for n in negEx:
+            if i.find(n) != -1:
+                count = count - 1 * direction
+                direction = direction * -1
+                break
 
         if count > 0:
             result.append(1)
@@ -64,7 +60,6 @@ def define_pos_neg(input_split):
             result.append(0)
 
     return result
-
 
 def define_field(input_split):
     okt = Okt()
