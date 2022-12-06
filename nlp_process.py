@@ -112,6 +112,8 @@ def classify_pos_neg_sentences(sentences):
 
 
 def classify_fields(sentences):
+    if sentences[len(sentences) - 1] == '.':
+        sentences = sentences[:-1]
     sentence_split_list = sentences.split(".")
     fields_result = define_field(sentence_split_list)
     result = {
