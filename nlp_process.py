@@ -93,6 +93,8 @@ def ho_bulho(input_split):
 
 
 def classify_pos_neg_sentences(sentences):
+    if sentences[len(sentences) - 1] == '.':
+        sentences = sentences[:-1]
     sentence_split_list = sentences.split(".")
     classify = define_pos_neg(sentence_split_list)
     field = define_field(sentence_split_list)
