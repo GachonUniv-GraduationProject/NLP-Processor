@@ -41,8 +41,8 @@ def threaded(client_socket, addr):
 
 client_sockets = []
 
-HOST = '127.0.0.1'
-PORT = 9999
+HOST = '0.0.0.0'
+PORT = 48088
 
 print(">> NLP Processor Start")
 processor_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
