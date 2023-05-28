@@ -20,4 +20,7 @@ This is a Python program that determines which field the user is referring to an
 KoNLPy: KoNLPy is a Python package for processing Korean information.
 Opt: Opensource Korean Text Processor. This is a simple morpheme parser that can quickly process spaced sentences. The execution speed is the fastest among morpheme parsers.
 
-<img width="465" alt="image" src="https://konlpy.org/ko/latest/_static/konlpy.png">
+<img width="200" alt="konlpy" src="https://konlpy.org/ko/latest/_static/konlpy.png">
+
+# Structure
+<img alt="structure" src="./nlp_structure.png">
